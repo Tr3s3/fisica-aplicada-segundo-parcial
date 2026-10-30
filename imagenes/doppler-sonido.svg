@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+<title id="title">Efecto Doppler de una fuente sonora que se acerca</title>
+<desc id="desc">La fuente se mueve hacia un observador quieto. Los frentes de onda delante de la fuente están más juntos, por eso la frecuencia recibida aumenta.</desc>
+<rect width="900" height="430" rx="24" fill="#f8fafc"/>
+<text x="450" y="42" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="700" fill="#172033">Fuente que se acerca a un observador quieto</text>
+<line x1="120" y1="240" x2="800" y2="240" stroke="#94a3b8" stroke-width="3"/>
+<g stroke="#8b5cf6" stroke-width="4">
+<line x1="220" y1="155" x2="220" y2="325"/><line x1="275" y1="155" x2="275" y2="325"/><line x1="330" y1="155" x2="330" y2="325"/>
+<line x1="400" y1="155" x2="400" y2="325"/><line x1="432" y1="155" x2="432" y2="325"/><line x1="464" y1="155" x2="464" y2="325"/><line x1="496" y1="155" x2="496" y2="325"/>
+</g>
+<rect x="350" y="205" width="56" height="70" rx="12" fill="#fed7aa" stroke="#c2410c" stroke-width="3"/>
+<path d="M362 205 Q378 178 394 205" fill="none" stroke="#c2410c" stroke-width="3"/>
+<text x="378" y="300" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#7c2d12">sirena</text>
+<line x1="378" y1="188" x2="485" y2="188" stroke="#c2410c" stroke-width="5"/>
+<polygon points="485,188 469,179 469,197" fill="#c2410c"/>
+<text x="430" y="166" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#c2410c">movimiento de la fuente</text>
+<circle cx="690" cy="240" r="28" fill="#bbf7d0" stroke="#15803d" stroke-width="3"/>
+<circle cx="690" cy="230" r="8" fill="#15803d"/><path d="M674 262 Q690 242 706 262" fill="none" stroke="#15803d" stroke-width="5"/>
+<text x="690" y="300" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#166534">observador quieto</text>
+<text x="460" y="360" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#172033">frentes delante: λ′ menor → f′ mayor</text>
+<text x="460" y="397" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#475569">Dibuja primero quién se acerca respecto del aire; luego asigna los signos</text>
+</svg>

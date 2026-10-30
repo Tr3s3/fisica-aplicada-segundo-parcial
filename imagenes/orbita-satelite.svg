@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" role="img" aria-labelledby="title desc">
+<title id="title">Radio y altura de un satélite en órbita</title>
+<desc id="desc">La distancia desde el centro del planeta hasta el satélite es r igual a R más h. La gravedad apunta al centro y la velocidad es tangente.</desc>
+<defs>
+<marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#245bdb"/></marker>
+<marker id="arrowGreen" markerWidth="12" markerHeight="12" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#198754"/></marker>
+</defs>
+<rect width="900" height="460" rx="24" fill="#f8fafc"/>
+<text x="450" y="42" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="700" fill="#172033">No confundas altura h con radio orbital r</text>
+<ellipse cx="330" cy="255" rx="205" ry="160" fill="none" stroke="#64748b" stroke-width="3" stroke-dasharray="9 7"/>
+<circle cx="330" cy="255" r="132" fill="#b9d8f5" stroke="#245bdb" stroke-width="3"/>
+<text x="330" y="265" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="700" fill="#12315a">planeta</text>
+<circle cx="535" cy="255" r="11" fill="#e67e22" stroke="#9a3412" stroke-width="2"/>
+<text x="554" y="260" font-family="sans-serif" font-size="20" fill="#172033">satélite</text>
+<line x1="330" y1="255" x2="535" y2="255" stroke="#334155" stroke-width="3"/>
+<line x1="330" y1="255" x2="462" y2="255" stroke="#e67e22" stroke-width="6"/>
+<line x1="462" y1="255" x2="535" y2="255" stroke="#198754" stroke-width="6"/>
+<text x="396" y="235" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="700" fill="#b45309">R</text>
+<text x="498" y="235" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="700" fill="#198754">h</text>
+<text x="420" y="300" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#172033">r = R + h</text>
+<line x1="535" y1="255" x2="424" y2="255" stroke="#245bdb" stroke-width="5" marker-end="url(#arrow)"/>
+<text x="474" y="330" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#245bdb">g apunta al centro</text>
+<line x1="520" y1="232" x2="520" y2="145" stroke="#198754" stroke-width="5" marker-end="url(#arrowGreen)"/>
+<text x="552" y="178" font-family="sans-serif" font-size="18" fill="#198754">v tangente</text>
+<rect x="620" y="120" width="235" height="190" rx="16" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="737" y="160" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#172033">En las fórmulas</text>
+<text x="737" y="205" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#172033">altura: h</text>
+<text x="737" y="242" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#172033">órbita: r = R + h</text>
+<text x="737" y="279" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#b91c1c">usar h como r da error</text>
+<text x="450" y="414" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#172033">Fórmulas orbitales y de escape usan la distancia al centro</text>
+</svg>

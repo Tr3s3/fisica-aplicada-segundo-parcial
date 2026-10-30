@@ -1,0 +1,8 @@
+# Preferencias locales de Obsidian, plugins y archivos abiertos
+.obsidian/
+
+# Papelera local de Obsidian
+.trash/
+
+# Diagrama de óptica fuera del alcance de este parcial
+imagenes/doble-rendija.svg

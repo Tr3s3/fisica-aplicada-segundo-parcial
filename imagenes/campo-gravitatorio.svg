@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+<title id="title">Superposición del campo gravitatorio de dos masas</title>
+<desc id="desc">Dos masas simétricas atraen el punto P. Las componentes horizontales se cancelan y las verticales apuntan hacia abajo.</desc>
+<defs>
+<marker id="arrBlue" markerWidth="12" markerHeight="12" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#245bdb"/></marker>
+<marker id="arrGreen" markerWidth="12" markerHeight="12" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#198754"/></marker>
+<marker id="arrOrange" markerWidth="12" markerHeight="12" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#e67e22"/></marker>
+</defs>
+<rect width="900" height="430" rx="24" fill="#f8fafc"/>
+<text x="450" y="42" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="700" fill="#172033">Campo neto en P: suma de componentes</text>
+<line x1="250" y1="270" x2="650" y2="270" stroke="#94a3b8" stroke-dasharray="7 7" stroke-width="2"/>
+<line x1="450" y1="104" x2="450" y2="335" stroke="#cbd5e1" stroke-dasharray="7 7" stroke-width="2"/>
+<line x1="250" y1="270" x2="450" y2="120" stroke="#94a3b8" stroke-width="2"/>
+<line x1="650" y1="270" x2="450" y2="120" stroke="#94a3b8" stroke-width="2"/>
+<circle cx="250" cy="270" r="28" fill="#f4a261" stroke="#b45309" stroke-width="3"/>
+<circle cx="650" cy="270" r="28" fill="#f4a261" stroke="#b45309" stroke-width="3"/>
+<circle cx="450" cy="120" r="9" fill="#172033"/>
+<text x="450" y="91" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#172033">P</text>
+<text x="250" y="322" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#172033">M</text>
+<text x="650" y="322" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#172033">M</text>
+<line x1="443" y1="126" x2="330" y2="211" stroke="#245bdb" stroke-width="5" marker-end="url(#arrBlue)"/>
+<line x1="457" y1="126" x2="570" y2="211" stroke="#245bdb" stroke-width="5" marker-end="url(#arrBlue)"/>
+<text x="352" y="162" font-family="sans-serif" font-size="18" fill="#245bdb">g₁</text>
+<text x="540" y="162" font-family="sans-serif" font-size="18" fill="#245bdb">g₂</text>
+<line x1="438" y1="140" x2="350" y2="140" stroke="#e67e22" stroke-width="3" stroke-dasharray="6 5" marker-end="url(#arrOrange)"/>
+<line x1="462" y1="140" x2="550" y2="140" stroke="#e67e22" stroke-width="3" stroke-dasharray="6 5" marker-end="url(#arrOrange)"/>
+<text x="450" y="164" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#b45309">componentes horizontales opuestas</text>
+<line x1="432" y1="147" x2="432" y2="205" stroke="#198754" stroke-width="3" stroke-dasharray="5 4" marker-end="url(#arrGreen)"/>
+<line x1="468" y1="147" x2="468" y2="205" stroke="#198754" stroke-width="3" stroke-dasharray="5 4" marker-end="url(#arrGreen)"/>
+<line x1="450" y1="133" x2="450" y2="240" stroke="#198754" stroke-width="6" marker-end="url(#arrGreen)"/>
+<text x="477" y="222" font-family="sans-serif" font-size="19" font-weight="700" fill="#198754">g neta</text>
+<text x="450" y="380" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#172033">gx se cancela · gy se suma hacia las masas · geometría 6–8–10</text>
+</svg>
