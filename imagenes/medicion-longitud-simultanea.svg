@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 450" role="img" aria-labelledby="title desc">
+<title id="title">Medir la longitud de una nave requiere simultaneidad en cada marco</title>
+<desc id="desc">Arriba, la nave está en reposo y su longitud propia se mide entre los extremos. Abajo, la Tierra mide las posiciones de los extremos en el mismo instante terrestre usando relojes sincronizados; esa longitud es la longitud propia dividida por gamma.</desc>
+<rect width="960" height="450" rx="22" fill="#f8fafc"/>
+<text x="480" y="38" text-anchor="middle" font-family="sans-serif" font-size="25" font-weight="700" fill="#172033">La longitud se mide registrando ambos extremos al mismo tiempo</text>
+<rect x="28" y="60" width="904" height="160" rx="16" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="55" y="92" font-family="sans-serif" font-size="19" font-weight="700" fill="#172033">1. Marco de la nave: está en reposo; se obtiene la longitud propia L₀</text>
+<line x1="215" y1="151" x2="745" y2="151" stroke="#245bdb" stroke-width="24" stroke-linecap="round"/>
+<line x1="215" y1="124" x2="215" y2="180" stroke="#12315a" stroke-width="4"/>
+<line x1="745" y1="124" x2="745" y2="180" stroke="#12315a" stroke-width="4"/>
+<text x="215" y="116" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#12315a">extremo A</text>
+<text x="745" y="116" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#12315a">extremo B</text>
+<line x1="230" y1="194" x2="730" y2="194" stroke="#245bdb" stroke-width="3"/>
+<polygon points="230,194 242,188 242,200" fill="#245bdb"/>
+<polygon points="730,194 718,188 718,200" fill="#245bdb"/>
+<text x="480" y="214" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#245bdb">L₀: los extremos se miden simultáneamente en el marco propio</text>
+<rect x="28" y="235" width="904" height="190" rx="16" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="55" y="267" font-family="sans-serif" font-size="19" font-weight="700" fill="#172033">2. Marco terrestre: dos relojes sincronizados registran el mismo tiempo t</text>
+<line x1="105" y1="375" x2="855" y2="375" stroke="#94a3b8" stroke-width="3"/>
+<line x1="340" y1="326" x2="340" y2="391" stroke="#334155" stroke-width="3"/>
+<line x1="620" y1="326" x2="620" y2="391" stroke="#334155" stroke-width="3"/>
+<circle cx="340" cy="312" r="20" fill="#dbeafe" stroke="#245bdb" stroke-width="3"/>
+<circle cx="620" cy="312" r="20" fill="#dbeafe" stroke="#245bdb" stroke-width="3"/>
+<text x="340" y="318" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#12315a">t</text>
+<text x="620" y="318" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#12315a">t</text>
+<rect x="340" y="342" width="280" height="34" rx="12" fill="#ffedd5" stroke="#e67e22" stroke-width="3"/>
+<line x1="340" y1="335" x2="340" y2="385" stroke="#9a3412" stroke-width="3"/>
+<line x1="620" y1="335" x2="620" y2="385" stroke="#9a3412" stroke-width="3"/>
+<text x="340" y="407" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#7c2d12">A en xₐ</text>
+<text x="620" y="407" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#7c2d12">B en xᵦ</text>
+<line x1="650" y1="350" x2="755" y2="350" stroke="#e67e22" stroke-width="4"/>
+<polygon points="755,350 740,342 740,358" fill="#e67e22"/>
+<text x="704" y="339" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#9a3412">movimiento</text>
+<text x="480" y="413" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#b45309">L = xᵦ − xₐ = L₀/γ  (longitud contraída)</text>
+</svg>

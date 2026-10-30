@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 430" role="img" aria-labelledby="title desc">
+<title id="title">Derivación de la dilatación temporal con un reloj de luz</title>
+<desc id="desc">En reposo, la luz recorre una distancia vertical d en cada mitad del viaje. Desde la Tierra, el aparato se mueve y la luz sigue una trayectoria diagonal mayor. La rapidez c constante implica que el intervalo medido desde la Tierra es mayor.</desc>
+<rect width="980" height="430" rx="22" fill="#f8fafc"/>
+<text x="490" y="38" text-anchor="middle" font-family="sans-serif" font-size="25" font-weight="700" fill="#172033">El mismo pulso de luz recorre caminos distintos según el marco</text>
+<rect x="25" y="60" width="445" height="270" rx="16" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="45" y="92" font-family="sans-serif" font-size="19" font-weight="700" fill="#172033">Reloj en reposo: tiempo propio Δt₀</text>
+<rect x="172" y="119" width="76" height="18" rx="5" fill="#64748b"/>
+<text x="210" y="115" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#334155">espejo</text>
+<rect x="172" y="268" width="76" height="18" rx="5" fill="#245bdb"/>
+<text x="210" y="309" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#12315a">fuente y detector</text>
+<line x1="210" y1="259" x2="210" y2="145" stroke="#245bdb" stroke-width="6"/>
+<polygon points="210,140 202,155 218,155" fill="#245bdb"/>
+<line x1="267" y1="137" x2="267" y2="268" stroke="#94a3b8" stroke-width="2"/>
+<line x1="257" y1="137" x2="277" y2="137" stroke="#94a3b8" stroke-width="2"/>
+<line x1="257" y1="268" x2="277" y2="268" stroke="#94a3b8" stroke-width="2"/>
+<text x="286" y="207" font-family="sans-serif" font-size="17" fill="#334155">d</text>
+<text x="245" y="193" font-family="sans-serif" font-size="15" fill="#245bdb">pulso</text>
+<text x="247" y="236" font-family="sans-serif" font-size="15" fill="#64748b">ida y vuelta:</text>
+<text x="247" y="257" font-family="sans-serif" font-size="16" font-weight="700" fill="#12315a">Δt₀ = 2d/c</text>
+<text x="48" y="311" font-family="sans-serif" font-size="14" fill="#475569">Emisión y regreso ocurren en el mismo lugar.</text>
+<rect x="490" y="60" width="465" height="270" rx="16" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="510" y="92" font-family="sans-serif" font-size="19" font-weight="700" fill="#172033">Medición desde la Tierra: intervalo Δt</text>
+<line x1="565" y1="273" x2="770" y2="273" stroke="#e67e22" stroke-width="4"/>
+<polygon points="770,273 754,264 754,282" fill="#e67e22"/>
+<text x="664" y="298" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#9a3412">desplazamiento del reloj: vΔt/2</text>
+<line x1="770" y1="273" x2="770" y2="125" stroke="#94a3b8" stroke-width="3"/>
+<line x1="755" y1="125" x2="785" y2="125" stroke="#64748b" stroke-width="8"/>
+<line x1="755" y1="273" x2="785" y2="273" stroke="#245bdb" stroke-width="8"/>
+<line x1="565" y1="273" x2="770" y2="125" stroke="#245bdb" stroke-width="6"/>
+<polygon points="770,125 754,128 763,140" fill="#245bdb"/>
+<line x1="788" y1="125" x2="788" y2="273" stroke="#94a3b8" stroke-width="2"/>
+<line x1="780" y1="125" x2="796" y2="125" stroke="#94a3b8" stroke-width="2"/>
+<line x1="780" y1="273" x2="796" y2="273" stroke="#94a3b8" stroke-width="2"/>
+<text x="805" y="205" font-family="sans-serif" font-size="16" fill="#334155">d</text>
+<text x="637" y="178" transform="rotate(-36 637 178)" font-family="sans-serif" font-size="15" fill="#12315a">trayecto de luz cΔt/2</text>
+<text x="515" y="315" font-family="sans-serif" font-size="14" fill="#475569">Por Pitágoras, cada mitad sigue una diagonal mayor.</text>
+<rect x="75" y="350" width="830" height="58" rx="12" fill="#eaf2ff" stroke="#93b4f5" stroke-width="2"/>
+<text x="490" y="374" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#12315a">(cΔt/2)² = d² + (vΔt/2)², y d = cΔt₀/2</text>
+<text x="490" y="398" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" fill="#12315a">Al despejar: Δt = Δt₀ / √(1 − v²/c²) = γΔt₀</text>
+</svg>

@@ -46,6 +46,6 @@ Constantes frecuentes: $G=6.67\times10^{-11}\,\mathrm{N\,m^2/kg^2}$, $c=3.00\tim
 ## Teoría por tema
 
 - [[Teoría/01 - Gravitación y órbitas]]
-- [[Teoría/02 - Relatividad especial]]
-- [[Teoría/03 - Ondas y acústica]]
-- [[Teoría/04 - Ondas electromagnéticas]]
+- [[Teoría/02 - Relatividad especial]] — [[Teoría/02 - Conceptos de relatividad especial|conceptos]] · [[Teoría/02 - Fórmulas aplicadas de relatividad especial|fórmulas]]
+- [[Teoría/03 - Ondas y acústica]] — [[Teoría/03 - Conceptos de ondas y acústica|conceptos]] · [[Teoría/03 - Fórmulas aplicadas de ondas y acústica|fórmulas]]
+- [[Teoría/04 - Ondas electromagnéticas]] — [[Teoría/04 - Conceptos de ondas electromagnéticas|conceptos]] · [[Teoría/04 - Fórmulas aplicadas de ondas electromagnéticas|fórmulas]]

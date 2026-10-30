@@ -28,7 +28,9 @@ Aparece en los cuatro modelos: campo vectorial, peso a distintas alturas, órbit
 
 Aparece en los cuatro modelos: tiempo propio, dilatación, contracción de longitud y suma relativista.
 
-- Teoría: [[Teoría/02 - Relatividad especial]]
+- Teoría e índice: [[Teoría/02 - Relatividad especial]]
+  - Conceptos: [[Teoría/02 - Conceptos de relatividad especial]]
+  - Fórmulas aplicadas: [[Teoría/02 - Fórmulas aplicadas de relatividad especial]]
 - Ejercicios: [[Ejercicios/02 - Relatividad especial]]
 - Resoluciones: [[Resoluciones/02 - Relatividad especial]]
 
@@ -36,7 +38,9 @@ Aparece en los cuatro modelos: tiempo propio, dilatación, contracción de longi
 
 Aparece en tres modelos: presión y desplazamiento del aire, intensidad, decibeles y Doppler.
 
-- Teoría: [[Teoría/03 - Ondas y acústica]]
+- Teoría e índice: [[Teoría/03 - Ondas y acústica]]
+  - Conceptos: [[Teoría/03 - Conceptos de ondas y acústica]]
+  - Fórmulas aplicadas: [[Teoría/03 - Fórmulas aplicadas de ondas y acústica]]
 - Ejercicios: [[Ejercicios/03 - Ondas y acústica]]
 - Resoluciones: [[Resoluciones/03 - Ondas y acústica]]
 
@@ -44,13 +48,17 @@ Aparece en tres modelos: presión y desplazamiento del aire, intensidad, decibel
 
 Incluye frecuencia, longitud de onda, amplitud de campos y dirección de propagación.
 
-- Teoría: [[Teoría/04 - Ondas electromagnéticas]]
+- Teoría e índice: [[Teoría/04 - Ondas electromagnéticas]]
+  - Conceptos: [[Teoría/04 - Conceptos de ondas electromagnéticas]]
+  - Fórmulas aplicadas: [[Teoría/04 - Fórmulas aplicadas de ondas electromagnéticas]]
 - Ejercicios: [[Ejercicios/04 - Ondas electromagnéticas]]
 - Resoluciones: [[Resoluciones/04 - Ondas electromagnéticas]]
 
 ## Herramientas de estudio
 
 - [[Plan de 3 días]] organiza las sesiones y el simulacro.
+- [[Plan de pulido teórico y resoluciones]] define las mejoras por módulo y su estado.
 - [[Teoría/00 - Mapa y formulario general]] sirve para repasar fórmulas y elegir un modelo.
 - [[Ejercicios/00 - Método y registro]] incluye una plantilla de planteo y el registro de errores.
+- [[Ejercicios/05 - Simulacro mixto]] integra los cuatro temas; su [[Resoluciones/05 - Simulacro mixto|corrección paso a paso]] se consulta después de rendir.
 - [[Fuentes Zotero y probabilidad]] documenta los modelos consultados.

@@ -17,3 +17,10 @@ El banco está dividido por tema. Cada hoja tiene enunciados, datos, objetivo, p
 - [[Ejercicios/02 - Relatividad especial]]
 - [[Ejercicios/03 - Ondas y acústica]]
 - [[Ejercicios/04 - Ondas electromagnéticas]]
+
+## Simulacro mixto
+
+Haz la prueba de 90 minutos del tercer día sin apuntes y registra los errores por tipo.
+
+- Enunciados: [[Ejercicios/05 - Simulacro mixto]]
+- Corrección explicada: [[Resoluciones/05 - Simulacro mixto]]

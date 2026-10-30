@@ -27,23 +27,23 @@ Los modelos revisados muestran gravitación y relatividad en los cuatro; ondas y
 
 | Bloque | Trabajo | Evidencia de dominio |
 |---|---|---|
-| 1 | Tiempo propio y dilatación: ejercicios 8–9 de [[Ejercicios/02 - Relatividad especial]]. Contrasta con la resolución del tema. | Identificas qué reloj mide ambos eventos y qué intervalo es menor. |
-| 2 | Diferencia temporal del 1 %: ejercicio 10. Despeja primero $\\gamma$ y después $v/c$. | Obtienes la rapidez sin invertir la razón temporal. |
-| 3 | Contracción de longitud: ejercicio 11 y resolución correspondiente. | Identificas $L_0$ y contraes solo la dimensión paralela al movimiento. |
-| 4 | Suma relativista: ejercicios 12–13. Dibuja sentidos y define signos antes de sustituir. | Distingues movimientos en el mismo sentido y en sentidos opuestos. |
-| 5 | Presión y desplazamiento del aire: ejercicio 14 de [[Ejercicios/03 - Ondas y acústica]] y resolución del tema. | Conectas $\\Delta p_{max}=Bks_{max}$ con $k=2\\pi f/v$. |
-| 6 | Intensidad, decibeles y Doppler: ejercicios 15–19. Revisa los ejemplos resueltos del tema. | Sumas intensidades antes del logaritmo y predices si Doppler sube o baja la frecuencia. |
+| 1 | Lee [[Teoría/02 - Conceptos de relatividad especial]] hasta tiempo propio; resuelve ejercicios 8–9 y contrasta con [[Resoluciones/02 - Relatividad especial#8. Dilatación temporal: tiempo propio conocido|las resoluciones]]. | Defines los dos eventos, identificas el marco propio y justificas cuál intervalo es menor. |
+| 2 | Usa [[Teoría/02 - Fórmulas aplicadas de relatividad especial]] para resolver el ejercicio 10 y su resolución. Escribe qué significa el 1 % antes de calcular. | Obtienes $\gamma$ desde la razón y luego despejas $v/c$. |
+| 3 | Estudia simultaneidad de longitud con el diagrama del módulo; resuelve ejercicio 11 y compara con su resolución. | Identificas $L_0$ y tomas los extremos simultáneamente en el marco que pide la longitud. |
+| 4 | Resuelve ejercicios 12–13 con la fórmula aplicada. Dibuja sentidos y define signos antes de sustituir; rehace ambos pasos de la resolución. | Transformas de marco, conservas signos y compruebas $|u|<c$. |
+| 5 | Estudia [[Teoría/03 - Conceptos de ondas y acústica#3. Compresión, presión y desplazamiento|la idea física]] y [[Teoría/03 - Fórmulas aplicadas de ondas y acústica#3. De presión a desplazamiento de las partículas|la derivación]]. Resuelve el ejercicio 14 y compáralo con su resolución. | Conectas $\Delta p_{\max}=Bks_{\max}$ con $k=2\pi f/v$ y explicas por qué no se suma la presión ambiente. |
+| 6 | Lee las secciones de [[Teoría/03 - Fórmulas aplicadas de ondas y acústica#5. Nivel sonoro y suma de fuentes|intensidad y decibeles]] y [[Teoría/03 - Fórmulas aplicadas de ondas y acústica#6. Efecto Doppler: fórmula y signos|Doppler]]. Resuelve los ejercicios 15–19. | Sumas intensidades antes del logaritmo; asignas signos Doppler respecto del aire y predices si la frecuencia sube o baja. |
 
-**Cierre del día:** explica de memoria la diferencia entre tiempo propio, tiempo dilatado y longitud propia.
+**Cierre del día:** explica de memoria la diferencia entre tiempo propio, tiempo dilatado y longitud propia; en acústica, justifica por qué se suman intensidades antes de convertir a dB y cómo asignas el signo en Doppler.
 
 ## Día 3 — Ondas electromagnéticas, integración y simulacro
 
 | Bloque | Trabajo | Evidencia de dominio |
 |---|---|---|
 | 1 | Recuperación sin apuntes: reconstruye fórmulas de gravitación, relatividad y acústica; repasa las dudas registradas. | Reconoces qué tema todavía identificas solo al ver la fórmula. |
-| 2 | Ondas EM: ejercicio 20 de [[Ejercicios/04 - Ondas electromagnéticas]] y su resolución modelo. Dibuja ejes y comprueba $\\vec E\\times\\vec B$. | Calculas $f,E_{max},k,\\omega$ y orientas los campos. |
-| 3 | Transferencia EM: resuelve el ejercicio 21 con datos distintos y sin abrir la pista. Luego rehace el ejercicio más difícil de tu registro. | Aplicas las relaciones EM a datos nuevos y justificas la propagación. |
-| 4–5 | **Simulacro de 90 minutos**, sin apuntes: un problema de gravitación/orbitas, uno de relatividad, uno acústico y uno de ondas EM. Reserva 10 minutos para marcar errores. | Presentas esquema, modelo, ecuaciones, reemplazo, unidades y respuesta razonable. |
+| 2 | Repasa [[Teoría/04 - Conceptos de ondas electromagnéticas|los campos y la fase]] y [[Teoría/04 - Fórmulas aplicadas de ondas electromagnéticas|el formulario aplicado]]; resuelve el ejercicio 20 de [[Ejercicios/04 - Ondas electromagnéticas]] y compáralo con la resolución. | Calculas $f,E_{max},k,\omega$ y orientas los campos. |
+| 3 | Resuelve el ejercicio 21 sin abrir la pista; comprueba por qué cambian la fase y el sentido de $\vec B$. Luego rehace el ejercicio más difícil de tu registro. | Aplicas las relaciones EM a una onda que viaja en $-x$ y justificas los signos. |
+| 4–5 | Haz [[Ejercicios/05 - Simulacro mixto]] durante 90 minutos, sin apuntes. Reserva los últimos 10 minutos para revisar unidades, signos y respuestas. | Presentas esquema, modelo, ecuaciones, reemplazo, unidades y respuesta razonable. |
 | 6 | Corrige el simulacro y rehace desde cero los dos errores más importantes. Clasifica cada fallo: concepto, dibujo/signo, marco, unidades o álgebra. | Terminas con soluciones propias y completas. |
 
 Si el tiempo real se acorta, conserva la práctica activa, el simulacro y su corrección; recorta lectura y repeticiones.

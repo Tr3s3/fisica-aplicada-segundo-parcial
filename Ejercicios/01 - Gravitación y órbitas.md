@@ -11,20 +11,23 @@ tags: [fisica-aplicada, ejercicios, gravitacion]
 
 ## Ejercicios del tema
 
-### 1. Campo gravitatorio de dos masas simétricas — **M**
+### 1. Aceleración inicial por dos masas simétricas — **M**
 
-**Situación.** Dos masas iguales atraen una partícula de prueba situada sobre el eje de simetría. La partícula de prueba no altera el campo que se quiere calcular.
+**Situación.** Una esfera de prueba de $0.010\,\mathrm{kg}$ se suelta desde el reposo en $P$. Dos esferas iguales, fijas en $A$ y $B$, son las únicas que la atraen. Calcula su aceleración inicial; el campo que producen no depende de la masa de prueba.
 
 **Datos**
 
 - $M_1=M_2=0.260\,\mathrm{kg}$.
+- Masa de la esfera de prueba: $m=0.010\,\mathrm{kg}$.
 - Separación entre las masas: $16.0\,\mathrm{cm}$.
 - $P$ está $6.0\,\mathrm{cm}$ arriba del punto medio y a $10.0\,\mathrm{cm}$ de cada masa.
 - $G=6.67\times10^{-11}\,\mathrm{N\,m^2/kg^2}$.
 
-**Se pide.** Calcula el módulo y la dirección de $\vec g(P)$.
+**Se pide.** Calcula el módulo y la dirección de la aceleración inicial $\vec a(P)$.
 
 ![[imagenes/campo-gravitatorio.svg]]
+
+Las flechas representan campos; las fuerzas sobre la esfera de prueba tienen los mismos sentidos.
 
 > [!tip]- Pista de arranque
 >
@@ -98,7 +101,7 @@ tags: [fisica-aplicada, ejercicios, gravitacion]
 
 - Masa de la Luna: $M_L=7.35\times10^{22}\,\mathrm{kg}$.
 - Radio lunar: $R_L=1.74\times10^6\,\mathrm{m}$.
-- Masa del satélite: $m=500\,\mathrm{kg}$.
+- Masa del satélite: $m=5000\,\mathrm{kg}$, como indica el modelo 2025.
 - Radio orbital desde el centro: $r=5R_L$.
 - $G=6.67\times10^{-11}\,\mathrm{N\,m^2/kg^2}$.
 
@@ -148,14 +151,74 @@ tags: [fisica-aplicada, ejercicios, gravitacion]
 
 **Para comparar después:** [[Resoluciones/01 - Gravitación y órbitas]].
 
+### 8. Fuerza neta y punto de fuerza nula en una línea — **R · TP 5, ejercicio 2**
+
+**Situación.** Dos masas están fijas sobre una misma recta. Una tercera masa se coloca primero en el punto medio y luego se busca dónde las atracciones se equilibran.
+
+**Datos**
+
+- $M_1=200\,\mathrm{kg}$ y $M_2=500\,\mathrm{kg}$.
+- Separación entre las masas: $d=4.0\,\mathrm{m}$.
+- Masa de prueba: $m=50\,\mathrm{kg}$.
+- $G=6.67\times10^{-11}\,\mathrm{N\,m^2/kg^2}$.
+
+**Se pide.** a) Halla la fuerza neta sobre $m$ en el punto medio, con sentido. b) Encuentra la posición entre $M_1$ y $M_2$ donde la fuerza neta es cero, medida desde $M_1$.
+
+> [!tip]- Pista de arranque
+> En el punto medio las dos fuerzas son opuestas. Para el punto nulo, iguala sus módulos y deja $x$ como distancia desde $M_1$; no iguales las masas ni las distancias directamente.
+
+**Para comparar después:** [[Resoluciones/01 - Gravitación y órbitas]].
+
+### 9. Gravedad efectiva en el ecuador de Júpiter — **R · TP 5, ejercicio 9**
+
+**Situación.** La gravedad tira hacia el centro, pero una persona en el ecuador también necesita aceleración centrípeta por la rotación del planeta. La balanza ejerce una fuerza hacia afuera y su lectura corresponde al peso aparente.
+
+![[imagenes/gravedad-rotacion-jupiter.svg]]
+
+**Datos**
+
+- $M_J=1.9\times10^{27}\,\mathrm{kg}$.
+- Radio ecuatorial: $R_J=7.1\times10^4\,\mathrm{km}$.
+- Período de rotación: $T_J=9\,\mathrm{h}\,55\,\mathrm{min}$.
+- $G=6.67\times10^{-11}\,\mathrm{N\,m^2/kg^2}$; usa $g_\oplus=9.80\,\mathrm{m/s^2}$ para expresar el resultado en unidades terrestres de $g$.
+
+**Se pide.** Calcula la aceleración centrípeta, la gravedad efectiva que determina la lectura de la balanza y cuántas veces $g_\oplus$ representa.
+
+> [!tip]- Pista de arranque
+> Convierte $R_J$ a metros y $T_J$ a segundos. En el ecuador, hacia adentro es positivo: $mg-N=m v^2/R_J$. Despeja $N/m$.
+
+**Para comparar después:** [[Resoluciones/01 - Gravitación y órbitas]].
+
+### 10. Energía y rapidez de un meteorito en caída — **R · TP 5, ejercicio 14**
+
+**Situación.** Un meteorito se mueve radialmente hacia la Tierra. Sin atmósfera, la gravedad es conservativa: la pérdida de energía potencial se convierte en ganancia de energía cinética.
+
+**Datos**
+
+- Masa: $m=1.00\times10^3\,\mathrm{kg}$.
+- Rapidez inicial: $v_i=100\,\mathrm{km/h}$ cuando $r_i=6R_\oplus$.
+- Radio terrestre: $R_\oplus=6.38\times10^6\,\mathrm{m}$.
+- Masa terrestre: $M_\oplus=5.97\times10^{24}\,\mathrm{kg}$.
+- $G=6.67\times10^{-11}\,\mathrm{N\,m^2/kg^2}$.
+
+**Se pide.** Calcula la energía potencial inicial y en la superficie, la rapidez justo antes de llegar a la superficie y el trabajo realizado por la gravedad. Se supone caída radial y se desprecia la atmósfera.
+
+> [!tip]- Pista de arranque
+> Usa $U=-GM_\oplus m/r$ con cero en el infinito. Para la rapidez, conserva $K+U$; el trabajo gravitatorio es $W_g=-\Delta U$.
+
+**Para comparar después:** [[Resoluciones/01 - Gravitación y órbitas]].
+
 ## Clave breve
 
 > [!example]- Clave breve — abrir solo después de intentar
 >
-> 1. $|\vec g|=2.08\times10^{-9}\,\mathrm{m/s^2}$, vertical hacia abajo; las componentes horizontales se cancelan.
-> 2. $g_x=-1.48\times10^{-7}\,\mathrm{m/s^2}$; $g_y=+8.34\times10^{-8}\,\mathrm{m/s^2}$; $|\vec g|=1.70\times10^{-7}\,\mathrm{m/s^2}$; $29.3^\circ$ al norte del oeste.
+> 1. $|\vec a|=2.08\times10^{-9}\,\mathrm{m/s^2}$, vertical hacia abajo; las componentes horizontales se cancelan.
+> 2. $g_x=-1.48\times10^{-7}\,\mathrm{m/s^2}$; $g_y=+8.34\times10^{-8}\,\mathrm{m/s^2}$; $|\vec g|=1.70\times10^{-7}\,\mathrm{m/s^2}$; $29.4^\circ$ al norte del oeste.
 > 3. $W_0=69.3\,\mathrm{kN}$.
 > 4. $W_0=4.12\times10^6\,\mathrm{N}$; $W_h=3.70\times10^6\,\mathrm{N}$.
-> 5. $v_{orb}=750.7\,\mathrm{m/s}$; $T=7.28\times10^4\,\mathrm{s}=20.2\,\mathrm{h}$; $E=-1.41\times10^8\,\mathrm{J}$; $v_{esc}=1.06\times10^3\,\mathrm{m/s}$.
+> 5. $v_{orb}=750.7\,\mathrm{m/s}$; $T=7.28\times10^4\,\mathrm{s}=20.2\,\mathrm{h}$; $E=-1.41\times10^9\,\mathrm{J}$; $v_{esc}=1.06\times10^3\,\mathrm{m/s}$.
 > 6. $r_M=1.52\,\mathrm{UA}=2.27\times10^{11}\,\mathrm{m}$.
 > 7. $M_\odot=1.99\times10^{30}\,\mathrm{kg}$.
+> 8. En el punto medio, $F_{net}=2.50\times10^{-7}\,\mathrm{N}$ hacia $M_2$; el punto nulo está a $1.55\,\mathrm{m}$ de $M_1$.
+> 9. $a_c=2.20\,\mathrm{m/s^2}$; $g_{ef}=22.9\,\mathrm{m/s^2}=2.34g_\oplus$.
+> 10. $U_i=-1.04\times10^{10}\,\mathrm{J}$; $U_f=-6.24\times10^{10}\,\mathrm{J}$; $v_f=1.02\times10^4\,\mathrm{m/s}$; $W_g=+5.20\times10^{10}\,\mathrm{J}$.

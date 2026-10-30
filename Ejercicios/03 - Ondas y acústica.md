@@ -4,135 +4,146 @@ tags: [fisica-aplicada, ejercicios, ondas-acustica]
 
 # Ejercicios — Ondas y acústica
 
-**Teoría:** [[Teoría/03 - Ondas y acústica]] · **Resoluciones:** [[Resoluciones/03 - Ondas y acústica]] · **Método:** [[Ejercicios/00 - Método y registro]]
+**Conceptos:** [[Teoría/03 - Conceptos de ondas y acústica]] · **Fórmulas:** [[Teoría/03 - Fórmulas aplicadas de ondas y acústica]] · **Resoluciones:** [[Resoluciones/03 - Ondas y acústica]] · **Método:** [[Ejercicios/00 - Método y registro]]
 
 > [!info] Cómo usar esta hoja
-> Se conserva la numeración global para que coincida con el plan. **M** reproduce un tipo de los modelos; **R** es una variante de entrenamiento. Resuelve primero sin abrir la pista; consulta la clave al final.
+> Los ejercicios **M** practican familias presentes en los modelos; **R** son variantes para comprobar que entiendes el principio. Para cada problema escribe datos e incógnita, dibuja la propagación, nombra el modelo, despeja antes de sustituir y comprueba unidad y sentido físico. Abre la pista solo después de intentar.
 
-## Ejercicios del tema
+## 14. Desplazamiento de partículas a partir de presión — **M**
 
-### 14. Desplazamiento de partículas a partir de presión — **M**
-
-**Situación.** En una onda sonora longitudinal, la presión varía mientras las partículas del aire oscilan alrededor de su posición de equilibrio.
+**Situación.** Una onda sonora sinusoidal longitudinal se propaga en el aire. La presión oscila alrededor de la presión atmosférica mientras las partículas del aire se desplazan alrededor de su posición de equilibrio.
 
 **Datos**
 
-- Amplitud de presión: $\Delta p_{max}=3.0\times10^{-2}\,\mathrm{Pa}$.
+- Amplitud máxima de presión: $\Delta p_{\max}=3.0\times10^{-2}\,\mathrm{Pa}$.
 - Frecuencia: $f=1000\,\mathrm{Hz}$.
 - Rapidez del sonido: $v=344\,\mathrm{m/s}$.
 - Módulo volumétrico del aire: $B=1.42\times10^5\,\mathrm{Pa}$.
 
-**Se pide.** Calcula la amplitud de desplazamiento $s_{max}$ de las partículas.
+**Se pide.** Calcula el número de onda $k$ y la amplitud de desplazamiento $s_{\max}$ de las partículas.
 
 ![[imagenes/sonido-longitudinal.svg]]
 
-> [!tip]- Pista de arranque
->
-> Primero calcula $k=2\pi f/v$. Después usa la relación entre presión y desplazamiento $\Delta p_{max}=Bk s_{max}$. Despeja $s_{max}$ y conserva unidades SI.
+> [!tip]- Pista de planteo
+> Usa $k=2\pi f/v$. La deformación compresional de una onda sinusoidal conecta las dos amplitudes con $\Delta p_{\max}=Bks_{\max}$. Despeja $s_{\max}$.
 
-**Para comparar después:** [[Resoluciones/03 - Ondas y acústica]].
+**Familia de origen:** práctica Sonido, ejercicio 1; tipo también incluido en el modelo 2025.
 
-### 15. Intensidad sonora y nivel en decibeles — **R**
+## 15. Intensidad y nivel sonoro — **R**
 
-**Situación.** La amplitud de presión permite hallar la intensidad media de una onda sonora progresiva; luego se compara esa intensidad con el umbral de referencia.
+**Situación.** Un micrófono mide una onda sonora sinusoidal progresiva en aire. El dato de presión es la amplitud máxima, no el valor eficaz.
 
 **Datos**
 
-- $\Delta p_{max}=0.020\,\mathrm{Pa}$.
+- $\Delta p_{\max}=0.020\,\mathrm{Pa}$.
 - Densidad del aire: $\rho=1.20\,\mathrm{kg/m^3}$.
 - Rapidez del sonido: $v=343\,\mathrm{m/s}$.
 - Intensidad de referencia: $I_0=1.0\times10^{-12}\,\mathrm{W/m^2}$.
 
-**Se pide.** Calcula la intensidad $I$ y el nivel $\beta$ en dB.
+**Se pide.** Calcula la intensidad media $I$ y el nivel sonoro $\beta$ en dB.
 
 ![[imagenes/sonido-longitudinal.svg]]
 
-> [!tip]- Pista de arranque
->
-> Para una onda sinusoidal, $I=(\Delta p_{max})^2/(2\rho v)$. Luego usa $\beta=10\log_{10}(I/I_0)$. El logaritmo se aplica a la razón sin unidades.
+> [!tip]- Pista de planteo
+> Primero calcula $I=(\Delta p_{\max})^2/(2\rho v)$. Después compara esa intensidad con $I_0$ mediante el logaritmo decimal.
 
-### 16. Nivel sonoro de una o dos máquinas — **M**
+**Familia de origen:** práctica Sonido, ejercicios 6 y 9.
 
-**Situación.** Dos máquinas independientes producen sonido en el mismo puesto de trabajo. El modelo escaneado parece indicar $10^7\,\mathrm{W/m^2}$, aunque conviene revisar el exponente en tu copia.
+## 16. Nivel sonoro con una y dos máquinas — **M**
+
+**Situación.** Dos máquinas idénticas están a la misma distancia de un trabajador. La intensidad indicada para cada máquina funcionando en el puesto del trabajador es la transcripta del modelo escaneado.
 
 **Datos**
 
-- Intensidad por máquina: $I=2.0\times10^7\,\mathrm{W/m^2}$ según la lectura del escaneo.
+- Intensidad de una máquina: $I=2.0\times10^7\,\mathrm{W/m^2}$.
 - Intensidad de referencia: $I_0=1.0\times10^{-12}\,\mathrm{W/m^2}$.
-- Para dos máquinas iguales e independientes, las intensidades se suman.
+- Las máquinas son independientes: sus intensidades se suman.
 
-**Se pide.** Calcula el nivel con una máquina y con dos. Explica cuánto cambia el nivel al duplicar la intensidad.
+**Se pide.**
 
-> [!tip]- Pista de arranque
->
-> Calcula $\beta_1=10\log_{10}(I/I_0)$. Para dos fuentes, usa $I_{tot}=2I$ y vuelve a calcular el nivel; no sumes directamente los decibeles.
+1. Calcula el nivel sonoro con una máquina funcionando.
+2. Calcula el nivel con las dos máquinas funcionando.
+3. Explica cuánto aumenta el nivel al duplicar la intensidad.
 
-### 17. Doppler: fuente que se acerca — **M**
+> [!warning] Dato leído en el modelo
+> El escaneo imprime $2.0\times10^7\,\mathrm{W/m^2}$. Es un valor extraordinariamente alto para sonido, pero el exponente se verificó visualmente; en este ejercicio se conserva el dato literal.
 
-**Situación.** Una sirena se mueve hacia una persona quieta respecto del aire. Los frentes de onda delante de la fuente quedan más próximos.
+> [!tip]- Pista de planteo
+> Calcula $\beta_1=10\log_{10}(I/I_0)$. Para dos fuentes, suma primero $I_{\mathrm{tot}}=2I$ y aplica el logaritmo una segunda vez.
 
-**Datos**
+**Familia de origen:** modelo 2023, pregunta 2.
 
-- Frecuencia emitida: $f=500\,\mathrm{Hz}$.
-- Rapidez del sonido: $v_{snd}=340\,\mathrm{m/s}$.
-- Rapidez de la fuente hacia el observador: $v_s=50\,\mathrm{m/s}$.
-- Observador en reposo: $v_o=0$.
+## 17. Doppler: fuente que se acerca — **M**
 
-**Se pide.** Calcula la frecuencia recibida $f'$.
-
-![[imagenes/doppler-sonido.svg]]
-
-> [!tip]- Pista de arranque
->
-> Para fuente que se acerca y observador quieto, $f'=f\,v_{snd}/(v_{snd}-v_s)$. El denominador disminuye, así que la frecuencia observada debe superar los $500\,\mathrm{Hz}$ emitidos.
-
-**Para comparar después:** [[Resoluciones/03 - Ondas y acústica]].
-
-### 18. Doppler: observador que se aleja — **M**
-
-**Situación.** La sirena permanece quieta y el observador se aleja de ella a través del aire.
+**Situación.** Una ambulancia se acerca a un observador quieto respecto del aire. La fuente emite frentes sucesivos desde posiciones cada vez más cercanas al observador.
 
 **Datos**
 
-- Frecuencia emitida: $f=500\,\mathrm{Hz}$.
-- Rapidez del sonido: $v_{snd}=340\,\mathrm{m/s}$.
-- Rapidez del observador alejándose: $v_o=30\,\mathrm{m/s}$.
-- Fuente en reposo: $v_s=0$.
+- Frecuencia emitida: $f_s=500\,\mathrm{Hz}$.
+- Rapidez del sonido en aire: $v=340\,\mathrm{m/s}$.
+- Rapidez de la ambulancia hacia el observador: $v_s=50\,\mathrm{m/s}$.
+- Observador quieto: $v_o=0$.
 
-**Se pide.** Calcula la frecuencia recibida $f'$.
+**Se pide.** Calcula la frecuencia recibida $f_{\mathrm{obs}}$.
 
-> [!tip]- Pista de arranque
->
-> Para una fuente quieta y un observador que se aleja, $f'=f(v_{snd}-v_o)/v_{snd}$. La frecuencia recibida debe ser menor que la emitida.
+![[imagenes/doppler-casos.svg]]
 
-**Para comparar después:** [[Resoluciones/03 - Ondas y acústica]].
+> [!tip]- Pista de planteo
+> La fuente que se acerca acorta la longitud de onda por delante. Usa $f_{\mathrm{obs}}=f_s\,v/(v-v_s)$ y comprueba que el resultado sea mayor que $500\,\mathrm{Hz}$.
 
-### 19. Doppler: fuente y observador se acercan — **R**
+**Familia de origen:** modelo 2024, pregunta 3a.
 
-**Situación.** La fuente y el observador se aproximan uno al otro respecto del aire. Distingue el movimiento de quien emite del movimiento de quien recibe.
+## 18. Doppler: observador que se aleja — **M**
+
+**Situación.** La sirena permanece en reposo respecto del aire. El observador se aleja de ella; por eso encuentra menos frentes de onda por segundo.
 
 **Datos**
 
-- Frecuencia emitida: $f=500\,\mathrm{Hz}$.
-- Rapidez del sonido: $v_{snd}=340\,\mathrm{m/s}$.
-- Fuente hacia el observador: $v_s=40\,\mathrm{m/s}$.
-- Observador hacia la fuente: $v_o=20\,\mathrm{m/s}$.
+- Frecuencia emitida: $f_s=500\,\mathrm{Hz}$.
+- Rapidez del sonido: $v=340\,\mathrm{m/s}$.
+- Rapidez del observador alejándose: $30\,\mathrm{m/s}$.
+- Fuente quieta respecto del medio: $v_s=0$.
 
-**Se pide.** Calcula la frecuencia recibida.
+**Se pide.** Calcula $f_{\mathrm{obs}}$.
 
-![[imagenes/doppler-sonido.svg]]
+![[imagenes/doppler-casos.svg]]
 
-> [!tip]- Pista de arranque
->
-> Con ambos acercándose, $f'=f(v_{snd}+v_o)/(v_{snd}-v_s)$. El movimiento del observador modifica el numerador; el de la fuente modifica el denominador.
+> [!tip]- Pista de planteo
+> Con esta convención, alejarse significa $v_o=-30\,\mathrm{m/s}$. La fuente quieta deja $\lambda=v/f_s$; el observador se encuentra con los frentes a rapidez $v-30\,\mathrm{m/s}$.
+
+**Familia de origen:** modelo 2024, pregunta 3b.
+
+## 19. Doppler: fuente y observador se acercan — **R**
+
+**Situación.** Una sirena y una persona se desplazan una hacia la otra respecto del aire. El medio permanece en reposo.
+
+**Datos**
+
+- Frecuencia emitida: $f_s=500\,\mathrm{Hz}$.
+- Rapidez del sonido: $v=340\,\mathrm{m/s}$.
+- La fuente se mueve hacia el observador a $v_s=40\,\mathrm{m/s}$.
+- El observador se mueve hacia la fuente a $v_o=20\,\mathrm{m/s}$.
+
+**Se pide.** Calcula la frecuencia recibida y separa en tu explicación el efecto de la fuente del efecto del observador.
+
+![[imagenes/doppler-casos.svg]]
+
+> [!tip]- Pista de planteo
+> Ambos movimientos son de acercamiento: $v_o>0$ y $v_s>0$. La fuente acorta $\lambda$ y el observador aumenta su rapidez de encuentro con los frentes.
+
+**Familia de origen:** variante de transferencia de los casos por separado del modelo 2024.
 
 ## Clave breve
 
-> [!example]- Clave breve — abrir solo después de intentar
+> [!example]- Abrir después de resolver
+> 14. $k=18.27\,\mathrm{rad/m}$; $s_{\max}=1.16\times10^{-8}\,\mathrm{m}=11.6\,\mathrm{nm}$.
 >
-> 14. $k=18.27\,\mathrm{rad/m}$; $s_{max}=1.16\times10^{-8}\,\mathrm{m}$.
 > 15. $I=4.86\times10^{-7}\,\mathrm{W/m^2}$; $\beta=56.9\,\mathrm{dB}$.
-> 16. Si $I=2.0\times10^7\,\mathrm{W/m^2}$: una máquina $193.0\,\mathrm{dB}$; dos $196.0\,\mathrm{dB}$. Si el original dice $2.0\times10^{-7}$, son $53.0$ y $56.0\,\mathrm{dB}$. Duplicar la intensidad aumenta el nivel en $3.01\,\mathrm{dB}$.
-> 17. $f'=586.2\,\mathrm{Hz}$.
-> 18. $f'=455.9\,\mathrm{Hz}$.
-> 19. $f'=600\,\mathrm{Hz}$.
+>
+> 16. Una máquina: $193.0\,\mathrm{dB}$; dos: $196.0\,\mathrm{dB}$; aumento: $3.01\,\mathrm{dB}$.
+>
+> 17. $f_{\mathrm{obs}}=586.2\,\mathrm{Hz}$.
+>
+> 18. $f_{\mathrm{obs}}=455.9\,\mathrm{Hz}$.
+>
+> 19. $f_{\mathrm{obs}}=600\,\mathrm{Hz}$.

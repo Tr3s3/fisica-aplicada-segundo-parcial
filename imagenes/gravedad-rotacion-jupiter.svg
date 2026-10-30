@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" role="img" aria-labelledby="title desc">
+<title id="title">Fuerzas sobre una persona en el ecuador de un planeta que rota</title>
+<desc id="desc">La gravedad apunta hacia el centro del planeta, la fuerza normal de la balanza hacia afuera y la aceleración centrípeta hacia el centro. La ecuación radial es mg menos N igual a m por a centrípeta.</desc>
+<defs>
+<marker id="arrIn" markerWidth="12" markerHeight="12" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/></marker>
+<marker id="arrOut" markerWidth="12" markerHeight="12" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#198754"/></marker>
+<marker id="arrAccel" markerWidth="12" markerHeight="12" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#245bdb"/></marker>
+</defs>
+<rect width="960" height="500" rx="24" fill="#f8fafc"/>
+<text x="480" y="42" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="700" fill="#172033">Peso aparente en el ecuador de un planeta que rota</text>
+<circle cx="270" cy="255" r="165" fill="#b9d8f5" stroke="#245bdb" stroke-width="4"/>
+<text x="270" y="263" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="700" fill="#12315a">planeta</text>
+<circle cx="435" cy="255" r="12" fill="#172033"/>
+<text x="434" y="220" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#172033">persona</text>
+<line x1="270" y1="255" x2="435" y2="255" stroke="#64748b" stroke-width="2" stroke-dasharray="7 6"/>
+<text x="352" y="282" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#334155">R</text>
+<line x1="430" y1="230" x2="330" y2="230" stroke="#dc2626" stroke-width="5" marker-end="url(#arrIn)"/>
+<text x="375" y="215" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#b91c1c">mg, gravedad</text>
+<line x1="440" y1="255" x2="540" y2="255" stroke="#198754" stroke-width="5" marker-end="url(#arrOut)"/>
+<text x="492" y="242" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#15803d">N, balanza</text>
+<line x1="430" y1="280" x2="370" y2="280" stroke="#245bdb" stroke-width="5" marker-end="url(#arrAccel)"/>
+<text x="400" y="310" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#245bdb">a_c hacia el centro</text>
+<rect x="590" y="110" width="320" height="260" rx="18" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="750" y="150" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="700" fill="#172033">Ecuación radial</text>
+<text x="750" y="202" text-anchor="middle" font-family="sans-serif" font-size="25" fill="#172033">mg − N = m a_c</text>
+<text x="750" y="250" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#172033">g_ef = N/m = g − a_c</text>
+<text x="750" y="298" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#172033">g = GM/R²</text>
+<text x="750" y="332" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#172033">a_c = 4π²R/T²</text>
+<text x="480" y="432" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#172033">La balanza mide N: la rotación hace que el peso aparente sea menor que mg.</text>
+</svg>

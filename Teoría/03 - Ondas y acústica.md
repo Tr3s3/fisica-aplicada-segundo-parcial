@@ -2,60 +2,35 @@
 tags: [fisica-aplicada, teoria, ondas-acustica]
 ---
 
-# Teoría — Ondas y acústica
+# Ondas y acústica
 
-**Recorrido:** [[Teoría/00 - Mapa y formulario general|Mapa general]] → [[Ejercicios/03 - Ondas y acústica|Práctica]] → [[Resoluciones/03 - Ondas y acústica|Resoluciones modelo]]
+**Recorrido:** [[Teoría/00 - Mapa y formulario general|Mapa general]] → [[Teoría/03 - Conceptos de ondas y acústica|Conceptos]] → [[Teoría/03 - Fórmulas aplicadas de ondas y acústica|Fórmulas]] → [[Ejercicios/03 - Ondas y acústica|Práctica]] → [[Resoluciones/03 - Ondas y acústica|Resoluciones]]
 
-## Conceptos y fórmulas
+## Qué aparece en los modelos
 
-Para una onda sinusoidal:
+En los modelos consultados se repiten tres familias:
 
-$$
-v=\lambda f,\qquad
-k=\frac{2\pi}{\lambda}=\frac{2\pi f}{v},\qquad
-\omega=2\pi f.
-$$
+1. **Presión y movimiento del aire:** obtener cuánto se desplazan las partículas a partir de la amplitud de presión.
+2. **Intensidad y decibeles:** calcular el nivel de una fuente y el cambio al sumar dos fuentes iguales.
+3. **Efecto Doppler:** distinguir una fuente que se mueve de un observador que se mueve, con el aire como referencia.
 
-### Presión y desplazamiento del aire
+La práctica amplía los datos y combina los movimientos para que puedas reconocer el principio, no solo memorizar una sustitución.
 
-El sonido es una onda longitudinal: las partículas del aire oscilan paralelas a la propagación. Para amplitud de presión $\Delta p_{max}$ y desplazamiento máximo $s_{max}$:
+## Orden sugerido
 
-$$
-\Delta p_{max}=Bks_{max}
-\quad\Rightarrow\quad
-s_{max}=\frac{\Delta p_{max}}{Bk}
-=\frac{\Delta p_{max}v}{2\pi fB}.
-$$
+1. Lee [[Teoría/03 - Conceptos de ondas y acústica]] para entender qué oscila, cómo se propaga el sonido y qué cambia en Doppler.
+2. Usa [[Teoría/03 - Fórmulas aplicadas de ondas y acústica]] como hoja de selección, despeje y control de unidades.
+3. Resuelve [[Ejercicios/03 - Ondas y acústica]] sin abrir las pistas ni la clave.
+4. Reconstruye el planteo con [[Resoluciones/03 - Ondas y acústica]] y registra dónde elegiste un modelo distinto.
 
-La relación surge de que la compresión máxima es $ks_{max}$ y el cambio de presión es el módulo volumétrico $B$ por esa deformación. La amplitud de presión es una variación alrededor de la presión ambiente; no se suma la presión atmosférica.
+## Esquemas del módulo
+
+### Una onda mecánica longitudinal
 
 ![[imagenes/sonido-longitudinal.svg]]
 
-### Intensidad y nivel sonoro
+### Efecto Doppler: separar el papel de la fuente y del observador
 
-Para una onda sonora sinusoidal:
+![[imagenes/doppler-casos.svg]]
 
-$$
-I=\frac{(\Delta p_{max})^2}{2\rho v}.
-$$
-
-El nivel sonoro es:
-
-$$
-\beta=10\log_{10}\left(\frac I{I_0}\right),\qquad
-I_0=10^{-12}\,\mathrm{W/m^2}.
-$$
-
-Fuentes independientes: suma sus intensidades antes de pasar a decibeles. Dos fuentes idénticas duplican $I$ y aumentan el nivel en $10\log_{10}2\approx3.01\,\mathrm{dB}$.
-
-### Efecto Doppler
-
-Con el medio en reposo:
-
-$$
-f'=f\frac{v_{snd}+v_o}{v_{snd}-v_s}.
-$$
-
-Usa $v_o>0$ si el observador se acerca y $v_o<0$ si se aleja; $v_s>0$ si la fuente se acerca y $v_s<0$ si se aleja. Dibuja fuente, observador y aire. Acercarse debe elevar la frecuencia recibida; alejarse debe reducirla.
-
-![[imagenes/doppler-sonido.svg]]
+[[Teoría/03 - Conceptos de ondas y acústica#Fuentes consultadas|Fuentes y páginas consultadas]]

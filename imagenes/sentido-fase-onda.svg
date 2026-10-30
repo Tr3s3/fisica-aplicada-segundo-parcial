@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" role="img" aria-labelledby="title desc">
+<title id="title">Sentido de propagación según el signo de la fase</title>
+<desc id="desc">La fase kx menos omega t avanza hacia más x; la fase kx más omega t avanza hacia menos x.</desc>
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="3" orient="auto">
+    <path d="M0,0 L0,6 L9,3 z" fill="#17805d"/>
+  </marker>
+  <marker id="arrowLeft" markerWidth="12" markerHeight="12" refX="3" refY="3" orient="auto">
+    <path d="M9,0 L9,6 L0,3 z" fill="#b45309"/>
+  </marker>
+</defs>
+<rect width="900" height="470" rx="24" fill="#f8fafc"/>
+<text x="450" y="42" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="700" fill="#172033">El signo temporal de la fase fija hacia dónde viaja la onda</text>
+<text x="90" y="100" font-family="sans-serif" font-size="22" font-weight="700" fill="#172033">Fase: kx − ωt</text>
+<line x1="120" y1="190" x2="760" y2="190" stroke="#94a3b8" stroke-width="2"/>
+<path d="M120 190 C145 190 155 120 185 120 C215 120 225 260 255 260 C285 260 295 120 325 120 C355 120 365 260 395 260 C425 260 435 120 465 120 C495 120 505 260 535 260 C565 260 575 120 605 120 C635 120 645 260 675 260 C705 260 715 190 760 190" fill="none" stroke="#245bdb" stroke-width="5"/>
+<line x1="470" y1="285" x2="700" y2="285" stroke="#17805d" stroke-width="5" marker-end="url(#arrow)"/>
+<text x="585" y="320" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" fill="#146c4d">avance hacia +x</text>
+<text x="90" y="365" font-family="sans-serif" font-size="22" font-weight="700" fill="#172033">Fase: kx + ωt</text>
+<line x1="120" y1="410" x2="760" y2="410" stroke="#94a3b8" stroke-width="2"/>
+<path d="M120 410 C145 410 155 375 185 375 C215 375 225 445 255 445 C285 445 295 375 325 375 C355 375 365 445 395 445 C425 445 435 375 465 375 C495 375 505 445 535 445 C565 445 575 375 605 375 C635 375 645 445 675 445 C705 445 715 410 760 410" fill="none" stroke="#c2410c" stroke-width="5"/>
+<line x1="700" y1="350" x2="470" y2="350" stroke="#b45309" stroke-width="5" marker-end="url(#arrowLeft)"/>
+<text x="585" y="340" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="700" fill="#92400e">avance hacia −x</text>
+</svg>
