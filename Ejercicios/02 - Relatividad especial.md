@@ -114,6 +114,102 @@ tags: [fisica-aplicada, ejercicios, relatividad]
 
 **Para comparar después:** [[Resoluciones/02 - Relatividad especial#13. Suma relativista en sentidos opuestos]].
 
+## Complementarios del TP
+
+Estos ejercicios completan habilidades del TP que no estaban desarrolladas en la práctica principal. Prioriza C1; resuelve C2–C4 para afianzar la medición de longitudes y tiempos desde distintos marcos. C5 es una ampliación de baja prioridad: no aparece en los modelos de parcial revisados.
+
+### C1. Identificar el tiempo propio en dos marcos — TP, problema 3, pp. 13–15 — **Alta**
+
+**Situación.** Magda viaja en una nave que pasa junto a Sergio, quien permanece en la Tierra. Desde la Tierra, la nave se mueve a rapidez constante. Se estudian los mismos dos eventos: (A) Magda pasa junto a Sergio y (B) un instante posterior del viaje.
+
+**Datos**
+
+- Rapidez de la nave respecto de la Tierra: $v=0.600c$.
+- En el inciso (a), Sergio mide que Magda avanzó $9.00\times10^7\,\mathrm{m}$ desde el evento A.
+- En el inciso (b), el cronómetro de Magda indica $0.400\,\mathrm{s}$ entre A y B.
+- $c=3.00\times10^8\,\mathrm{m/s}$.
+
+**Se pide.** (a) Calcula el tiempo transcurrido según Sergio y según Magda. (b) Comprueba cuánto debe indicar Sergio si Magda mide $0.400\,\mathrm{s}$ para esos mismos eventos.
+
+![[imagenes/marcos-relatividad.svg]]
+
+> [!tip]- Pista de arranque
+> Para (a), primero calcula el intervalo terrestre con la distancia que Sergio mide. Luego identifica en qué marco A y B ocurren en el mismo lugar. Para (b), usa ese intervalo propio y la dilatación temporal.
+
+**Para comparar después:** [[Resoluciones/02 - Relatividad especial#C1. Identificar el tiempo propio en dos marcos]].
+
+### C2. Separación de dos observadores vista desde una nave — TP, problema 5, pp. 18–19 — **Media**
+
+**Situación.** Dos observadores están en reposo en la Tierra, separados sobre una línea paralela al movimiento de una nave. La nave pasa frente a ellos a gran rapidez. Se pide la separación que asigna la tripulación a sus posiciones medidas simultáneamente desde la nave.
+
+**Datos**
+
+- Separación entre los observadores medida en la Tierra: $L_0=56.4\,\mathrm{m}$.
+- Rapidez relativa nave–Tierra: $v=0.990c$.
+
+**Se pide.** Calcula la separación entre los observadores en el marco de la nave.
+
+![[imagenes/medicion-longitud-simultanea.svg]]
+
+> [!tip]- Pista de arranque
+> Los observadores están en reposo entre sí en la Tierra, así que allí se mide la longitud propia. Desde la nave esa separación es paralela al movimiento y se contrae. La medición de ambos observadores debe ser simultánea en el marco de la nave.
+
+**Para comparar después:** [[Resoluciones/02 - Relatividad especial#C2. Separación de dos observadores vista desde una nave]].
+
+### C3. Hallar la rapidez a partir de una longitud contraída — TP, ejercicio de la regla, p. 20 — **Media**
+
+**Situación.** Una regla tiene longitud propia de $1.00\,\mathrm{m}$. Pasa frente a una observadora moviéndose a lo largo de su eje. Ella mide una longitud de $1.00\,\mathrm{ft}$.
+
+**Datos**
+
+- Longitud propia: $L_0=1.00\,\mathrm{m}$.
+- Longitud medida en movimiento: $L=1.00\,\mathrm{ft}=0.3048\,\mathrm{m}$.
+- $c=3.00\times10^8\,\mathrm{m/s}$.
+
+**Se pide.** Calcula la rapidez de la regla como fracción de $c$ y en $\mathrm{m/s}$.
+
+> [!tip]- Pista de arranque
+> Parte de $L=L_0\sqrt{1-v^2/c^2}$. Despeja $v/c$ y usa la razón $L/L_0$; no hace falta calcular $\gamma$ por separado.
+
+**Para comparar después:** [[Resoluciones/02 - Relatividad especial#C3. Hallar la rapidez a partir de una longitud contraída]].
+
+### C4. Longitud de una pista y tiempos medidos en dos marcos — TP, p. 21 — **Media**
+
+**Situación.** Una pista terrestre para naves espaciales está en reposo respecto de la Tierra. Una nave la recorre en línea recta y pasa de un extremo al otro. Compara la longitud de la pista y el tiempo de viaje medidos en ambos marcos.
+
+**Datos**
+
+- Longitud de la pista en la Tierra: $L_0=3600\,\mathrm{m}$.
+- Rapidez de la nave respecto de la Tierra: $v=4.00\times10^7\,\mathrm{m/s}$.
+- $c=3.00\times10^8\,\mathrm{m/s}$.
+
+**Se pide.** (a) ¿Qué longitud mide el piloto para la pista? (b) ¿Cuánto tiempo transcurre en la Tierra entre el paso de la nave por un extremo y por el otro? (c) ¿Cuánto tiempo registra el piloto? Comprueba que los dos intervalos concuerden con la dilatación temporal.
+
+![[imagenes/medicion-longitud-simultanea.svg]]
+
+> [!tip]- Pista de arranque
+> En la Tierra, la nave recorre $L_0$; en la nave, la pista contraída pasa frente al piloto. Calcula cada cociente distancia/rapidez con longitudes y velocidades del mismo marco. En la nave, los dos eventos ocurren en el mismo lugar, por eso ese intervalo es propio.
+
+**Para comparar después:** [[Resoluciones/02 - Relatividad especial#C4. Longitud de una pista y tiempos medidos en dos marcos]].
+
+### C5. Energía y rapidez de electrones — TP, problema 6, pp. 22–24 — **Ampliación**
+
+**Situación.** Un electrón parte del reposo y se acelera mediante una diferencia de potencial. La energía eléctrica que gana se convierte en energía cinética relativista.
+
+**Datos**
+
+- Masa del electrón: $m_e=9.11\times10^{-31}\,\mathrm{kg}$.
+- Carga elemental: $e=1.602\times10^{-19}\,\mathrm{C}$.
+- Diferencia de potencial: $\Delta V=20.0\,\mathrm{kV}$ o $5.00\,\mathrm{MV}$.
+- $c=2.998\times10^8\,\mathrm{m/s}$.
+
+**Se pide.** (a) Calcula la energía en reposo del electrón en joules y electronvoltios; exprésala también en $\mathrm{MeV}$. (b) Para cada diferencia de potencial, calcula la rapidez final como fracción de $c$ y en $\mathrm{m/s}$.
+
+> [!tip]- Pista de arranque
+> Usa $E_0=m_ec^2$. Como el electrón parte del reposo, su energía cinética final es $K=e|\Delta V|$. Después calcula $\gamma=1+K/E_0$ y despeja $v/c=\sqrt{1-1/\gamma^2}$.
+
+**Para comparar después:** [[Resoluciones/02 - Relatividad especial#C5. Energía y rapidez de electrones]].
+
 ## Clave breve
 
 > [!example]- Clave breve — abrir solo después de intentar
@@ -123,5 +219,10 @@ tags: [fisica-aplicada, ejercicios, relatividad]
 > 11. $\gamma=2.028$; $L=173\,\mathrm{m}$.
 > 12. $u=+0.8594c$; tiempo terrestre hasta la Tierra: $31.0\,\mathrm{s}$.
 > 13. $u=+0.3846c$ en el marco terrestre.
+> C1. (a) Sergio: $0.500\,\mathrm{s}$; Magda: $0.400\,\mathrm{s}$. (b) Sergio: $0.500\,\mathrm{s}$.
+> C2. $L=7.95\,\mathrm{m}$ en el marco de la nave.
+> C3. $v=0.952c\approx2.86\times10^8\,\mathrm{m/s}$.
+> C4. (a) $3568\,\mathrm{m}$; (b) $9.00\times10^{-5}\,\mathrm{s}$; (c) $8.92\times10^{-5}\,\mathrm{s}$.
+> C5. (a) $E_0\approx8.19\times10^{-14}\,\mathrm{J}=5.11\times10^5\,\mathrm{eV}=0.511\,\mathrm{MeV}$. (b) $20.0\,\mathrm{kV}: v=0.272c\approx8.15\times10^7\,\mathrm{m/s}$; $5.00\,\mathrm{MV}: v=0.996c\approx2.99\times10^8\,\mathrm{m/s}$.
 
 **Fuentes de los tipos M:** modelos del segundo parcial y problemas guardados en Zotero, documentados en [[Fuentes Zotero y probabilidad#Relatividad especial: fuentes consultadas para el módulo]].

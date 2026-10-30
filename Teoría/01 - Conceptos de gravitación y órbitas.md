@@ -163,3 +163,27 @@ Para comparar dos cuerpos que orbitan la misma masa central, la constante $4\pi^
 - [Modelo del segundo parcial, Tema A, 11/11/2025](zotero://select/library/items/6GRRT3TK), pp. 1–2 escaneadas: aceleración por dos masas, satélite lunar y formulario entregado.
 
 La guía explica y reorganiza esas ideas para estudiar. Las etiquetas **M** y **R** distinguen ejercicios del tipo observado en modelos y variantes de transferencia basadas en el TP; no se presentan las variantes como transcripciones literales.
+
+## Autoevaluación de conceptos
+
+Responde primero con tus palabras; abre la explicación plegable solo después de intentarlo.
+
+**1. ¿Por qué el campo gravitatorio no depende de la masa de prueba y cómo se calcula el campo de varias fuentes?**
+
+> [!success]- Mostrar explicación
+> El campo se define como fuerza por unidad de masa. Al sustituir $F_g=GMm_{prueba}/r^2$, la masa de prueba se cancela y queda $g=GM/r^2$. Para varias fuentes, cada contribución apunta hacia su fuente y se suman vectorialmente por componentes; el campo resultante tampoco depende del objeto que se coloque allí.
+
+**2. ¿Qué diferencia hay entre el peso gravitatorio y la lectura de una balanza en el ecuador de un planeta que rota?**
+
+> [!success]- Mostrar explicación
+> El peso gravitatorio es $mg$, mientras que la balanza mide la normal $N$. En el ecuador, parte de la gravedad proporciona la aceleración centrípeta: $mg-N=mv^2/R$. Por eso $N/m=g-v^2/R$ y la lectura es menor que el peso gravitatorio. No cambian la masa ni la atracción; cambia la fuerza de apoyo necesaria.
+
+**3. ¿Por qué un satélite en órbita circular está acelerado aunque su rapidez sea constante, y qué indica que su energía total sea negativa?**
+
+> [!success]- Mostrar explicación
+> La velocidad cambia continuamente de dirección, así que hay aceleración centrípeta hacia el centro. La gravedad es la fuerza que la produce. En la órbita circular $K=GMm/(2r)$ y $U=-GMm/r$, por lo que $E=K+U=-GMm/(2r)<0$: el satélite está ligado gravitatoriamente y no puede llegar al infinito con rapidez no nula sin recibir energía.
+
+**4. ¿Qué supuesto permite cancelar la constante de la tercera ley de Kepler al comparar dos períodos?**
+
+> [!success]- Mostrar explicación
+> Los dos cuerpos deben orbitar la misma masa central, cuyo valor domina la masa del sistema. Así $T^2/r^3=4\pi^2/(GM)$ es el mismo para ambas órbitas. Si las masas centrales son distintas, esa razón no es común y no se puede cancelar sin incluirlas.

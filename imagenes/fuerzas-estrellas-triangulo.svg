@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440" role="img" aria-labelledby="title desc">
+  <title id="title">Tres estrellas en una geometría de 45 grados</title>
+  <desc id="desc">La estrella pequeña está en el origen. Una estrella grande está sobre el eje x a dos por diez a la doce metros y otra está dos por diez a la doce metros más arriba. Las dos fuerzas apuntan desde la estrella pequeña hacia las masas grandes.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#176b87"/>
+    </marker>
+    <marker id="axis" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#555"/>
+    </marker>
+  </defs>
+  <rect width="760" height="440" rx="18" fill="#fbfcfe"/>
+  <text x="36" y="42" font-family="sans-serif" font-size="22" font-weight="700" fill="#172b3a">Fuerzas sobre la estrella pequeña</text>
+  <line x1="140" y1="350" x2="670" y2="350" stroke="#555" stroke-width="2" marker-end="url(#axis)"/>
+  <line x1="140" y1="350" x2="140" y2="78" stroke="#555" stroke-width="2" marker-end="url(#axis)"/>
+  <text x="680" y="358" font-family="sans-serif" font-size="18" fill="#333">x</text>
+  <text x="128" y="68" font-family="sans-serif" font-size="18" fill="#333">y</text>
+  <line x1="140" y1="350" x2="500" y2="350" stroke="#9aa7b0" stroke-dasharray="7 6" stroke-width="2"/>
+  <line x1="500" y1="350" x2="500" y2="110" stroke="#9aa7b0" stroke-dasharray="7 6" stroke-width="2"/>
+  <line x1="140" y1="350" x2="500" y2="110" stroke="#9aa7b0" stroke-dasharray="7 6" stroke-width="2"/>
+  <text x="265" y="382" font-family="sans-serif" font-size="17" fill="#333">2.00 × 10¹² m</text>
+  <text x="512" y="245" font-family="sans-serif" font-size="17" fill="#333">2.00 × 10¹² m</text>
+  <path d="M200 350 A60 60 0 0 0 182 308" fill="none" stroke="#a36b00" stroke-width="3"/>
+  <text x="210" y="320" font-family="sans-serif" font-size="17" fill="#8a5a00">45°</text>
+  <line x1="140" y1="350" x2="360" y2="350" stroke="#176b87" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="140" y1="350" x2="320" y2="230" stroke="#176b87" stroke-width="4" marker-end="url(#arrow)"/>
+  <circle cx="140" cy="350" r="14" fill="#b8362b" stroke="#72251e" stroke-width="2"/>
+  <circle cx="500" cy="350" r="20" fill="#d39034" stroke="#85520d" stroke-width="2"/>
+  <circle cx="500" cy="110" r="20" fill="#d39034" stroke="#85520d" stroke-width="2"/>
+  <text x="35" y="405" font-family="sans-serif" font-size="17" fill="#333">m = 1.00 × 10³⁰ kg</text>
+  <text x="520" y="357" font-family="sans-serif" font-size="17" fill="#333">M₂ = 8.00 × 10³⁰ kg</text>
+  <text x="520" y="105" font-family="sans-serif" font-size="17" fill="#333">M₁ = 8.00 × 10³⁰ kg</text>
+  <text x="294" y="340" font-family="sans-serif" font-size="16" fill="#176b87">F₂</text>
+  <text x="285" y="252" font-family="sans-serif" font-size="16" fill="#176b87">F₁</text>
+</svg>

@@ -215,9 +215,209 @@ $$
 
 **Resultado y control.** En el marco terrestre el proyectil sigue avanzando en $+x$, a $0.3846c$. Aunque fue disparado hacia atrás respecto de la nave, la nave se mueve más rápido que ese retroceso. El módulo final es menor que $c$ y el signo positivo confirma el sentido.
 
+## C1. Identificar el tiempo propio en dos marcos
+
+**Interpretación de los eventos.** En los dos incisos comparamos A, cuando Magda pasa junto a Sergio, con B, cuando Magda alcanza el punto final señalado. En el marco terrestre, la nave se desplaza entre A y B. En el marco de Magda, ambos eventos ocurren en el mismo lugar de la nave; por eso el cronómetro de Magda mide el tiempo propio $\Delta t_0$.
+
+**Datos e incógnitas**
+
+$$
+v=0.600c,\qquad \Delta x_{S}=9.00\times10^7\,\mathrm{m},\qquad c=3.00\times10^8\,\mathrm{m/s}.
+$$
+
+### (a) Partir de la distancia medida por Sergio
+
+**Paso 1: hallar el intervalo terrestre.** La distancia y la rapidez están medidas respecto de la Tierra. Por eso Sergio calcula
+
+$$
+\Delta t_S=\frac{\Delta x_S}{v}
+=\frac{9.00\times10^7\,\mathrm{m}}{0.600(3.00\times10^8\,\mathrm{m/s})}
+=0.500\,\mathrm{s}.
+$$
+
+**Paso 2: calcular el factor de Lorentz.**
+
+$$
+\gamma=\frac{1}{\sqrt{1-(0.600)^2}}=1.25.
+$$
+
+**Paso 3: hallar el intervalo propio de Magda.** Sergio ve el reloj de Magda en movimiento, así que mide el intervalo dilatado $\Delta t_S=\gamma\Delta t_0$:
+
+$$
+\Delta t_0=\frac{\Delta t_S}{\gamma}
+=\frac{0.500\,\mathrm{s}}{1.25}
+=0.400\,\mathrm{s}.
+$$
+
+**Resultado y control.** Sergio mide $0.500\,\mathrm{s}$ y Magda $0.400\,\mathrm{s}$. El tiempo propio es menor. El criterio es que ambos eventos ocurran en el mismo lugar del marco de Magda, no que su cronómetro marque el mayor valor.
+
+### (b) Comprobar desde el tiempo propio
+
+Si el cronómetro de Magda registra $\Delta t_0=0.400\,\mathrm{s}$, Sergio registra
+
+$$
+\Delta t_S=\gamma\Delta t_0=(1.25)(0.400\,\mathrm{s})=0.500\,\mathrm{s}.
+$$
+
+Se recupera el mismo intervalo terrestre que en (a). Este segundo cálculo confirma que ambas partes describen el mismo par de eventos.
+
+## C2. Separación de dos observadores vista desde una nave
+
+**Interpretación.** Los dos observadores están fijos en la Tierra, así que su separación se mide en el marco donde el par está en reposo. Esa es la longitud propia $L_0$. La nave se mueve paralela a la línea entre ellos; la tripulación mide esa separación como una longitud contraída.
+
+**Datos e incógnita**
+
+$$
+L_0=56.4\,\mathrm{m},\qquad v=0.990c,\qquad \text{incógnita: }L_{\text{nave}}.
+$$
+
+**Principio.** Usamos $L=L_0\sqrt{1-v^2/c^2}$ porque la separación es paralela al movimiento relativo.
+
+**Cálculo**
+
+$$
+L_{\text{nave}}=(56.4\,\mathrm{m})\sqrt{1-(0.990)^2}
+=(56.4\,\mathrm{m})\sqrt{0.0199}
+=7.95\,\mathrm{m}.
+$$
+
+**Resultado y control.** La tripulación mide aproximadamente $7.95\,\mathrm{m}$ entre los observadores. Es menor que los $56.4\,\mathrm{m}$ medidos en el marco donde ellos están en reposo. Cada observador debe medir las dos posiciones simultáneamente en su propio marco; las dos respuestas no son dos lecturas de una misma pareja de eventos simultáneos.
+
+## C3. Hallar la rapidez a partir de una longitud contraída
+
+**Interpretación.** La regla mide $L_0=1.00\,\mathrm{m}$ en su propio marco y se mueve paralela a su eje. La observadora mide $L=0.3048\,\mathrm{m}$. Como conoce ambas longitudes, despejamos la rapidez de la fórmula de contracción.
+
+**Despeje**
+
+$$
+L=L_0\sqrt{1-\frac{v^2}{c^2}}
+\quad\Longrightarrow\quad
+\frac{v}{c}=\sqrt{1-\left(\frac{L}{L_0}\right)^2}.
+$$
+
+**Cálculo**
+
+$$
+\frac{v}{c}=\sqrt{1-\left(\frac{0.3048\,\mathrm{m}}{1.00\,\mathrm{m}}\right)^2}
+=0.9524,
+$$
+
+$$
+v=(0.9524)(3.00\times10^8\,\mathrm{m/s})
+=2.86\times10^8\,\mathrm{m/s}.
+$$
+
+**Resultado y control.** La regla se mueve a $v\approx0.952c$. La rapidez es menor que $c$, y que $L/L_0\approx0.305$ corresponde a una contracción fuerte, como cabe esperar a esta rapidez.
+
+## C4. Longitud de una pista y tiempos medidos en dos marcos
+
+![[imagenes/medicion-longitud-simultanea.svg]]
+
+**Marcos y eventos.** La pista está en reposo en la Tierra, por lo que $L_0=3600\,\mathrm{m}$ es su longitud propia. Los eventos son el paso de la nave por cada extremo. Para el piloto ocurren en el mismo lugar de la nave, así que su intervalo es el tiempo propio $\Delta t_0$.
+
+**Datos**
+
+$$
+L_0=3600\,\mathrm{m},\qquad v=4.00\times10^7\,\mathrm{m/s},\qquad c=3.00\times10^8\,\mathrm{m/s}.
+$$
+
+### (a) Longitud de la pista en el marco de la nave
+
+La rapidez relativa como fracción de $c$ es $\beta=v/c=0.1333$. La pista se mueve en el marco del piloto, así que
+
+$$
+L=L_0\sqrt{1-\beta^2}
+=(3600\,\mathrm{m})\sqrt{1-(0.1333)^2}
+=3568\,\mathrm{m}.
+$$
+
+### (b) Tiempo medido desde la Tierra
+
+La nave recorre los $3600\,\mathrm{m}$ de la pista en el marco terrestre:
+
+$$
+\Delta t=\frac{L_0}{v}
+=\frac{3600\,\mathrm{m}}{4.00\times10^7\,\mathrm{m/s}}
+=9.00\times10^{-5}\,\mathrm{s}.
+$$
+
+### (c) Tiempo medido por el piloto
+
+En el marco de la nave, la pista contraída pasa frente al piloto. Usamos esa longitud y la rapidez relativa en el mismo marco:
+
+$$
+\Delta t_0=\frac{L}{v}
+=\frac{3568\,\mathrm{m}}{4.00\times10^7\,\mathrm{m/s}}
+=8.92\times10^{-5}\,\mathrm{s}.
+$$
+
+**Comprobación.** $\gamma=1/\sqrt{1-\beta^2}=1.009$. Entonces
+
+$$
+\gamma\Delta t_0=(1.009)(8.92\times10^{-5}\,\mathrm{s})
+\approx9.00\times10^{-5}\,\mathrm{s}=\Delta t.
+$$
+
+Los resultados concuerdan: el tiempo terrestre es mayor que el tiempo propio del piloto. La comprobación solo funciona porque cada distancia y rapidez usadas en $\Delta t=d/v$ pertenecen al mismo marco.
+
+## C5. Energía y rapidez de electrones
+
+> [!note] Alcance
+> Este ejercicio extiende la práctica a energía relativista porque aparece en el TP, pero no en los modelos de parcial revisados. Déjalo para después de los tipos de prioridad alta.
+
+**Principio físico.** La energía en reposo del electrón es $E_0=m_ec^2$. Al acelerarlo desde el reposo mediante una diferencia de potencial, el campo eléctrico realiza un trabajo de magnitud $K=e|\Delta V|$. La energía total pasa a ser $E=E_0+K=\gamma m_ec^2$; por tanto, $\gamma=1+K/E_0$ y $v/c=\sqrt{1-1/\gamma^2}$.
+
+### (a) Energía en reposo
+
+$$
+E_0=m_ec^2
+=(9.11\times10^{-31}\,\mathrm{kg})(2.998\times10^8\,\mathrm{m/s})^2
+=8.19\times10^{-14}\,\mathrm{J}.
+$$
+
+Para convertir a electronvoltios usamos $1\,\mathrm{eV}=1.602\times10^{-19}\,\mathrm{J}$:
+
+$$
+E_0=\frac{8.19\times10^{-14}\,\mathrm{J}}{1.602\times10^{-19}\,\mathrm{J/eV}}
+=5.11\times10^5\,\mathrm{eV}=0.511\,\mathrm{MeV}.
+$$
+
+Usamos $c=2.998\times10^8\,\mathrm{m/s}$ en este cálculo para conservar la precisión de la energía en reposo.
+
+### (b) Rapidez final
+
+**Para $20.0\,\mathrm{kV}$.** La energía cinética ganada es $K=e\Delta V=20.0\,\mathrm{keV}=0.0200\,\mathrm{MeV}$:
+
+$$
+\gamma=1+\frac{0.0200}{0.511}=1.039,
+\qquad
+\frac{v}{c}=\sqrt{1-\frac{1}{(1.039)^2}}=0.272,
+$$
+
+$$
+v=(0.272)(2.998\times10^8\,\mathrm{m/s})
+=8.15\times10^7\,\mathrm{m/s}.
+$$
+
+**Para $5.00\,\mathrm{MV}$.** Ahora $K=e\Delta V=5.00\,\mathrm{MeV}$:
+
+$$
+\gamma=1+\frac{5.00}{0.511}=10.78,
+\qquad
+\frac{v}{c}=\sqrt{1-\frac{1}{(10.78)^2}}=0.9957,
+$$
+
+$$
+v=(0.9957)(2.998\times10^8\,\mathrm{m/s})
+=2.99\times10^8\,\mathrm{m/s}.
+$$
+
+**Control.** Al aumentar la diferencia de potencial, aumenta $\gamma$ y la rapidez se acerca a $c$, pero no la alcanza. La energía cinética adicional de $5.00\,\mathrm{MeV}$ es mucho mayor que la energía en reposo del electrón, por eso el segundo resultado queda muy próximo a $c$.
+
 ## Fuentes cotejadas
 
 - [Capítulo de relatividad](zotero://select/library/items/YB8669CS), PDF pp. 7–9, 12–15 y 17–19.
+- [Problemas de relatividad aplicada](zotero://select/library/items/N655C6SK), PDF pp. 13–24: intervalos propios, contracción, pista espacial y energía de electrones para los complementarios C1–C5.
 - [Problemas de relatividad aplicada](zotero://select/library/items/N655C6SK), PDF p. 25: velocidades $0.400c$ y $0.700c$ y tiempo de alcance.
 - [Modelo PDF 2025, escaneado](zotero://select/library/items/6GRRT3TK), p. 2: suma relativista seguida del tiempo de alcance; página revisada como imagen.
 - [Modelo DOCX 2025](zotero://select/library/items/DHM5X7QD): contracción de longitud a $0.87c$.

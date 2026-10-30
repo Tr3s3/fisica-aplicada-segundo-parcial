@@ -137,7 +137,35 @@ $$
 
 Si dos posiciones se registran al mismo tiempo en $S$ ($\Delta t=0$), en general $\Delta t'=-\gamma v\Delta x/c^2\neq0$: no son simultáneas en $S'$. Esta es la razón de fondo por la que cada marco debe hacer su propia medición simultánea de ambos extremos al medir una longitud. La explicación geométrica está en [[Teoría/02 - Conceptos de relatividad especial]] y en ![[imagenes/medicion-longitud-simultanea.svg]].
 
-## 7. Errores que conviene prevenir
+## 7. Extensión: energía relativista
+
+> [!note] Prioridad
+> El TP incluye energía relativista de electrones, pero ninguno de los modelos revisados la pregunta. Estúdiala después de tiempo propio, contracción y suma de velocidades.
+
+La energía total de una partícula de masa $m$ que se mueve a rapidez $v$ es
+
+$$
+E=\gamma mc^2.
+$$
+
+En reposo, $\gamma=1$, así que su energía en reposo es $E_0=mc^2$. La energía cinética relativista es la diferencia:
+
+$$
+K=E-E_0=(\gamma-1)mc^2.
+$$
+
+Si la partícula parte del reposo y gana energía al cruzar una diferencia de potencial $\Delta V$, el trabajo del campo eléctrico es $K=|q|\,|\Delta V|$. Para un electrón, el valor numérico de la energía en eV coincide con la diferencia de potencial en voltios: por ejemplo, $20.0\,\mathrm{kV}$ le entrega $20.0\,\mathrm{keV}$.
+
+Para hallar la rapidez a partir de la energía ganada:
+
+$$
+\gamma=1+\frac{K}{mc^2},\qquad
+\frac{v}{c}=\sqrt{1-\frac{1}{\gamma^2}}.
+$$
+
+El paso $K=\frac12mv^2$ solo es una aproximación para $v\ll c$; no se usa para electrones acelerados a velocidades relativistas. Para el electrón, $m_ec^2\approx0.511\,\mathrm{MeV}$.
+
+## 8. Errores que conviene prevenir
 
 | Error | Cómo prevenirlo |
 |---|---|
@@ -151,5 +179,35 @@ Si dos posiciones se registran al mismo tiempo en $S$ ($\Delta t=0$), en general
 ## Fuentes cotejadas
 
 - [Capítulo de relatividad guardado en Zotero](zotero://select/library/items/YB8669CS): $\gamma$ y dilatación, PDF pp. 7–9; contracción, pp. 12–15; transformación de velocidades, pp. 17–19.
+- [Problemas de relatividad aplicada](zotero://select/library/items/N655C6SK), PDF pp. 22–24: energía en reposo, energía cinética relativista y rapidez de electrones acelerados.
 - [Problemas de relatividad aplicada](zotero://select/library/items/N655C6SK), p. 25: velocidades $0.400c$ y $0.700c$, y tiempo de alcance.
 - [Resolución guardada del modelo 2024](zotero://select/library/items/UHEXA2AW): interpretación de la diferencia temporal del 1 %.
+
+## Autoevaluación de fórmulas
+
+Antes de abrir cada explicación, escribe qué representa cada dato y en qué marco se mide.
+
+**1. Un reloj viaja con una nave y mide el intervalo entre dos eventos que ocurren en el mismo lugar de la nave. ¿Qué relación usas para hallar el intervalo terrestre?**
+
+> [!success]- Mostrar explicación
+> El intervalo del reloj de la nave es propio: $\Delta t_0$. Primero calculas $\gamma=1/\sqrt{1-v^2/c^2}$ y luego usas $\Delta t=\gamma\Delta t_0$. El resultado terrestre debe ser igual o mayor que el propio. La elección se justifica por dónde ocurren los eventos, no por cuál valor es dado.
+
+**2. Una nave mide 100 m en reposo y pasa paralela a su eje largo. ¿Qué longitud mide un observador que la ve moverse y qué sincronización requiere?**
+
+> [!success]- Mostrar explicación
+> Se usa $L=L_0/\gamma$. El observador registra las posiciones de ambos extremos al mismo tiempo en su propio marco; no puede tomar una lectura simultánea en el marco de la nave y reutilizarla. La contracción afecta solo la dirección paralela al movimiento.
+
+**3. En $S'$, un proyectil viaja hacia $-x$ y el marco $S'$ se mueve hacia $+x$ respecto de $S$. ¿Cómo asignas los signos en $u=(u'+v)/(1+u'v/c^2)$?**
+
+> [!success]- Mostrar explicación
+> Escribes $u'<0$ porque el proyectil viaja hacia $-x$ en $S'$, y $v>0$ porque $S'$ se mueve hacia $+x$ respecto de $S$. Sustituyes esos signos en numerador y denominador; el signo de $u$ determina el sentido medido en $S$. El denominador aparece porque el tiempo también se transforma entre marcos, y el módulo de la velocidad resultante debe ser menor que $c$.
+
+**4. ¿Puedes dividir una distancia medida desde la Tierra por una rapidez medida desde la nave para calcular el tiempo terrestre de llegada?**
+
+> [!success]- Mostrar explicación
+> No. La distancia y la rapidez deben corresponder al mismo marco para que $t=D/u$ describa el intervalo de ese observador. Primero transforma la velocidad al marco terrestre, convierte las unidades y entonces calcula el tiempo terrestre.
+
+**5. Un electrón parte del reposo y gana energía cinética $K$ en una diferencia de potencial. ¿Cómo obtienes su rapidez sin usar $K=\frac12mv^2$?**
+
+> [!success]- Mostrar explicación
+> Primero usas $E_0=m_ec^2$ y $K=(\gamma-1)m_ec^2$, por lo que $\gamma=1+K/E_0$. Luego despejas $v/c=\sqrt{1-1/\gamma^2}$. La fórmula clásica de energía cinética no describe correctamente una partícula que se acerca a $c$.

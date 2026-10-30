@@ -6,6 +6,8 @@ tags: [fisica-aplicada, practica, indice]
 
 El banco está dividido por tema. Cada hoja tiene enunciados, datos, objetivo, pista plegable y clave breve plegable.
 
+Consulta el [[Plan de auditoría de ejercicios]] para conocer el criterio de prioridad y el avance de la revisión tema a tema.
+
 ## Antes de practicar
 
 - Lee [[Ejercicios/00 - Método y registro]] para usar la plantilla y registrar errores.

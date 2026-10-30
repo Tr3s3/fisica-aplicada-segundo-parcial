@@ -117,7 +117,15 @@ Cuando todas las velocidades son pequeñas comparadas con $c$, los términos $v^
 
 Este límite permite entender por qué la mecánica clásica funciona tan bien en situaciones cotidianas y también sirve para detectar errores: si en un problema a $0.8c$ se obtiene exactamente la suma clásica, probablemente se aplicó el modelo equivocado.
 
-## 8. Rutina conceptual antes de calcular
+## 8. Extensión: energía relativista
+
+Los ejercicios principales del parcial revisado se resuelven con intervalos, longitudes y velocidades. El TP agrega un caso de electrones acelerados que requiere energía relativista, pero este tipo no aparece en los modelos analizados.
+
+La energía en reposo de una partícula es $E_0=mc^2$. Cuando se mueve, su energía total es $E=\gamma mc^2$; la diferencia $K=E-E_0=(\gamma-1)mc^2$ es la energía cinética. Si un electrón parte del reposo y atraviesa una diferencia de potencial, el campo eléctrico le entrega una energía $K=e|\Delta V|$. Se despeja $\gamma=1+K/(m_ec^2)$ y luego $v/c=\sqrt{1-1/\gamma^2}$.
+
+Esta relación explica por qué la rapidez de un electrón crece cada vez menos al aumentar mucho la energía: $v$ se acerca a $c$ sin alcanzarla. Para un electrón, $m_ec^2\approx0.511\,\mathrm{MeV}$. La derivación operativa y el ejemplo están en [[Teoría/02 - Fórmulas aplicadas de relatividad especial#7. Extensión: energía relativista]] y [[Resoluciones/02 - Relatividad especial#C5. Energía y rapidez de electrones]].
+
+## 9. Rutina conceptual antes de calcular
 
 1. Dibuja los marcos y fija un eje positivo.
 2. Nombra los eventos o los extremos que se miden.
@@ -130,5 +138,35 @@ Este límite permite entender por qué la mecánica clásica funciona tan bien e
 ## Fuentes de esta explicación
 
 - [Capítulo de relatividad guardado en Zotero](zotero://select/library/items/YB8669CS): postulados y simultaneidad, PDF pp. 1–6; tiempo propio y dilatación, pp. 7–9; longitud, pp. 12–15; transformaciones de Lorentz y velocidad, pp. 17–19.
+- [Problemas de relatividad aplicada](zotero://select/library/items/N655C6SK), PDF pp. 22–24: energía relativista de electrones como extensión del TP.
 - [Problemas de relatividad aplicada](zotero://select/library/items/N655C6SK): identificación del tiempo propio en el ejemplo inicial, p. 8; transformación de velocidades y alcance, p. 25.
 - El detalle de páginas y su relación con los modelos está en [[Fuentes Zotero y probabilidad#Relatividad especial: fuentes consultadas para el módulo]].
+
+## Autoevaluación de conceptos
+
+Responde cada pregunta por tu cuenta y despliega después su explicación razonada.
+
+**1. ¿Qué afirma el segundo postulado de la relatividad especial y qué límite impone a la suma de velocidades?**
+
+> [!success]- Mostrar explicación
+> La rapidez de la luz en el vacío es la misma para todo observador inercial, independientemente del movimiento de la fuente. Por eso, las velocidades relativas no pueden sumarse siempre con la regla clásica: la transformación de Lorentz reemplaza esa suma y mantiene la rapidez de la luz invariante. Para velocidades mucho menores que $c$, se recupera aproximadamente la mecánica clásica.
+
+**2. ¿Qué hace que un intervalo sea tiempo propio y por qué otro marco mide un intervalo mayor?**
+
+> [!success]- Mostrar explicación
+> Los dos eventos deben ocurrir en el mismo lugar del marco que mide $\Delta t_0$. En otro marco el reloj se mueve y los eventos ocurren en posiciones distintas. Al comparar las mediciones, $\Delta t=\gamma\Delta t_0$ con $\gamma>1$ si hay movimiento relativo; la diferencia surge de la geometría espacio-temporal, no de un defecto del reloj.
+
+**3. ¿Por qué una medición de longitud requiere que los extremos se registren simultáneamente en el marco que mide?**
+
+> [!success]- Mostrar explicación
+> La longitud es la separación entre los extremos en un mismo instante de ese marco. Como la simultaneidad depende del marco, dos observadores pueden usar pares distintos de eventos para localizar los extremos. La longitud propia se mide en reposo con respecto al objeto; un observador que ve el objeto moverse mide una longitud menor en la dirección del movimiento.
+
+**4. Una nave avanza hacia $+x$ y lanza un proyectil hacia atrás. ¿Qué signo tiene la velocidad del proyectil en el marco de la nave y para qué sirve ese signo?**
+
+> [!success]- Mostrar explicación
+> Si se define $+x$ como la dirección de avance de la nave, el proyectil tiene $u'<0$ en el marco de ella. El signo permite aplicar la suma relativista con la orientación correcta y decidir si, desde la Tierra, el proyectil todavía avanza hacia $+x$ o termina moviéndose hacia $-x$.
+
+**5. ¿Qué energía gana un electrón que parte del reposo al atravesar una diferencia de potencial, y cómo se convierte esa energía en rapidez?**
+
+> [!success]- Mostrar explicación
+> El trabajo eléctrico aporta $K=e|\Delta V|$. Se relaciona con la energía relativista mediante $K=(\gamma-1)m_ec^2$; se despeja $\gamma$ y luego $v/c=\sqrt{1-1/\gamma^2}$. Este contenido es una ampliación del TP, posterior a los tipos que aparecen en los modelos.

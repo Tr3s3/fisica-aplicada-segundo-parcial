@@ -106,3 +106,27 @@ con $\vec k=k\hat n$. El parcial puede resolverse en una dimensión usando $x$ y
 - Los tres sentidos deben ser mutuamente perpendiculares.
 - Si usas amplitudes positivas junto con unitarios, el signo va en el unitario, no escondido en la fase.
 - Un valor en $\mathrm{mT}$ o $\mathrm{nm}$ debe convertirse antes de calcular.
+
+## Autoevaluación de fórmulas
+
+Resuelve o justifica cada paso antes de abrir la explicación.
+
+**1. Una onda en el vacío tiene $\lambda=600\,\mathrm{nm}$. ¿Cómo obtienes su frecuencia, número de onda y frecuencia angular?**
+
+> [!success]- Mostrar explicación
+> Convierte $\lambda=6.00\times10^{-7}\,\mathrm m$. Luego $f=c/\lambda=5.00\times10^{14}\,\mathrm{Hz}$, $k=2\pi/\lambda\approx1.05\times10^7\,\mathrm{rad/m}$ y $\omega=2\pi f\approx3.14\times10^{15}\,\mathrm{rad/s}$. También debe cumplirse $\omega=ck$.
+
+**2. Si $B_{max}=2.0\,\mathrm{mT}$, ¿qué ecuación usas para hallar $E_{max}$ y qué conversión requiere el dato?**
+
+> [!success]- Mostrar explicación
+> Convierte primero $2.0\,\mathrm{mT}=2.0\times10^{-3}\,\mathrm T$. Después usa $E_{max}=cB_{max}$, que da $6.0\times10^5\,\mathrm{V/m}$. La unidad de campo eléctrico no es tesla; el factor $c$ asegura la conversión dimensional.
+
+**3. Una onda viaja hacia $-x$ y el campo eléctrico apunta en $+z$. ¿Cómo obtienes la dirección de $\vec B$ y verificas que sea coherente?**
+
+> [!success]- Mostrar explicación
+> Usa $\hat n=-\hat x$ y $\vec B=(1/c)\hat n\times\vec E$. Como $-\hat x\times\hat z=+\hat y$, $\vec B$ apunta en $+y$. Comprueba que $+\hat z\times+\hat y=-\hat x$, por lo que $\vec E\times\vec B$ coincide con la propagación.
+
+**4. ¿Qué signo temporal eliges en la fase para avance hacia $-x$ y qué otros datos deben respetar las ecuaciones vectoriales?**
+
+> [!success]- Mostrar explicación
+> Eliges $kx+\omega t+\phi_0$. Los vectores amplitud deben ser perpendiculares entre sí y a la propagación, cumplir $E_{max}=cB_{max}$, y su producto $\vec E\times\vec B$ debe apuntar hacia $-x$. Ambos campos comparten la misma fase.

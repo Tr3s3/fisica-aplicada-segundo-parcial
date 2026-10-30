@@ -60,6 +60,10 @@ Esta frecuencia sirve para repartir el tiempo, no para predecir con certeza el p
 
 Los ejercicios marcados **M** se distribuyen en [[Ejercicios/01 - Gravitación y órbitas]], [[Ejercicios/02 - Relatividad especial]], [[Ejercicios/03 - Ondas y acústica]] y [[Ejercicios/04 - Ondas electromagnéticas]]; siguen formatos vistos en los modelos. Los marcados **R** son variantes de entrenamiento preparadas para comprobar transferencia; no son transcripciones de esos materiales.
 
+En gravitación, los complementarios **C1–C8** de [[Ejercicios/01 - Gravitación y órbitas]] se redactaron a partir de los tipos del TP 5 que no estaban representados en la práctica. La correspondencia ejercicio por ejercicio y su prioridad están en [[Plan de auditoría de ejercicios]].
+
+En relatividad, los complementarios **C1–C4** de [[Ejercicios/02 - Relatividad especial]] cubren variantes del TP de 2024 que amplían la identificación de intervalos propios y la medición de longitudes. **C5** agrega la energía relativista de electrones como ampliación de baja prioridad, porque ese tipo no aparece en los modelos revisados.
+
 ## Gravitación: fuentes consultadas para el módulo
 
 | Material | Sección consultada | Qué respalda en la guía |
@@ -83,13 +87,16 @@ Las referencias de páginas distinguen la página del PDF adjunto de la numeraci
 | El mismo capítulo, PDF pp. 7–9 | Factor de Lorentz, dilatación y definición de tiempo propio | [[Teoría/02 - Conceptos de relatividad especial]] y ejercicios 8–10 |
 | El mismo capítulo, PDF pp. 12–15 | Longitud propia, medición paralela al movimiento y contracción | Diagrama de simultaneidad, fórmulas y ejercicio 11 |
 | El mismo capítulo, PDF pp. 17–19 | Transformaciones de Lorentz y de velocidades; convenciones de signo | Fórmula de suma relativista y ejercicios 12–13 |
-| [Problemas de relatividad aplicada 2024](zotero://select/library/items/N655C6SK), PDF p. 8 | Ejemplo que identifica cuál intervalo es propio | Criterio para reconocer tiempo propio antes de sustituir |
+| [Problemas de relatividad aplicada 2024](zotero://select/library/items/N655C6SK), PDF p. 8 | Identificación del tiempo propio y rapidez de la nave desde la razón de intervalos | Criterio para reconocer tiempo propio y despejar $v/c$; practica ambos pasos en 8–10 |
+| El mismo archivo, PDF pp. 9–15 | Dilatación en el avión y muones; tiempos de Magda y Sergio para los mismos dos sucesos | Ejercicios 8–9 cubren la dilatación; C1 compara los dos marcos para el mismo par de eventos |
+| El mismo archivo, PDF pp. 17–21 | Longitud de nave, separación de observadores, despeje inverso de rapidez y pista espacial | Ejercicio 11 y complementarios C2–C4 |
+| El mismo archivo, PDF pp. 22–24 | Energía en reposo y rapidez de electrones acelerados | Complementario C5, ampliación de baja prioridad |
 | El mismo archivo, PDF p. 25 | Nave a $0.400c$, proyectil a $0.700c$ y tiempo de alcance | Enunciado y procedimiento del ejercicio 12 |
 | [Modelo PDF 2025, Tema A](zotero://select/library/items/6GRRT3TK), escaneo p. 2 | Suma de velocidades relativistas y tiempo hasta la Tierra; luego dilatación a $0.6c$ | Formato de examen de los ejercicios 8 y 12; página comprobada visualmente |
 | [Modelo DOCX 2025](zotero://select/library/items/DHM5X7QD) | Contracción de longitud a $0.87c$ y dilatación temporal a $0.6c$ | Tipos de ejercicio 8 y 11 |
 | [Modelo manuscrito 2024](zotero://select/library/items/HQ9E54FP) y [resolución guardada](zotero://select/library/items/UHEXA2AW) | Rapidez que produce una diferencia temporal del 1 % | Enunciado y contraste del ejercicio 10 |
 
-La teoría de fondo se resume sin extenderse a dinámica relativista, masa-energía o relatividad general, porque esos contenidos no son necesarios para los formatos de relatividad que aparecen en los modelos revisados. Los ejercicios **R** son variantes de transferencia; los **M** conservan la familia de planteos de examen, no una transcripción literal.
+La ruta prioritaria se concentra en dilatación temporal, contracción y suma relativista, presentes en los modelos revisados. La energía relativista aparece en el TP, pero no en esos modelos; por eso se incorporó como ampliación opcional C5. No se incluyen dinámica relativista general ni relatividad general. Los ejercicios **R** son variantes de transferencia; los **M** conservan la familia de planteos de examen, no una transcripción literal.
 
 ## Dato acústico del modelo 2023 verificado visualmente
 

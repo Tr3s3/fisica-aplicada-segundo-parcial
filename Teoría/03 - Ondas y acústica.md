@@ -34,3 +34,22 @@ La práctica amplía los datos y combina los movimientos para que puedas reconoc
 ![[imagenes/doppler-casos.svg]]
 
 [[Teoría/03 - Conceptos de ondas y acústica#Fuentes consultadas|Fuentes y páginas consultadas]]
+
+## Autoevaluación del módulo
+
+Contesta sin mirar los apuntes y despliega cada explicación para revisar el razonamiento.
+
+**1. ¿Qué tres familias de problemas acústicos aparecen en los modelos y qué decisión inicial exige cada una?**
+
+> [!success]- Mostrar explicación
+> Aparecen presión y desplazamiento del aire, intensidad y nivel sonoro, y efecto Doppler. Hay que distinguir amplitudes de presión y movimiento; decidir si se suman intensidades lineales antes de pasar a decibeles; y, para Doppler, identificar el movimiento de fuente y observador respecto del aire.
+
+**2. ¿Por qué el movimiento de la fuente y el del observador aparecen de manera distinta en la fórmula Doppler del sonido?**
+
+> [!success]- Mostrar explicación
+> La fuente móvil modifica la separación entre frentes de onda en el aire y, por tanto, su longitud de onda. El observador móvil cambia cuántos frentes encuentra por segundo. El aire fija el marco de propagación, por eso las dos velocidades deben medirse respecto del medio.
+
+**3. Dos fuentes iguales e independientes aumentan la intensidad total al doble. ¿Qué le ocurre al nivel sonoro?**
+
+> [!success]- Mostrar explicación
+> El nivel aumenta unos $3.01\,\mathrm{dB}$, no se duplica. La intensidad se suma linealmente y el nivel se calcula después con el logaritmo: $10\log_{10}(2I/I_0)=10\log_{10}(I/I_0)+10\log_{10}2$.

@@ -102,3 +102,27 @@ La convención y la derivación se desarrollan en [[Teoría/03 - Fórmulas aplic
 - [Presentación de ondas y sonido](zotero://select/library/items/WFMW87CP): sonido y ondas longitudinales, PDF p. 12; rapidez en distintos medios, pp. 13–14; intensidad, p. 15; escala de decibeles, pp. 16–17; efecto Doppler y variables, pp. 18–19; ejemplos, pp. 20–22.
 - [Práctica de sonido, Física Aplicada 2021](zotero://select/library/items/ZFCVVKE5): presión y desplazamiento, ejercicios 1–2; rapidez e intensidad, ejercicios 3–8; nivel sonoro y propagación, ejercicios 9–10; fuentes en fase, ejercicio 12; longitudes de onda y Doppler, ejercicios 13–17.
 - Modelos cotejados: [segundo parcial 2023](zotero://select/library/items/YIXUYDMC), pregunta 2; [segundo parcial 2024](zotero://select/library/items/HQ9E54FP), pregunta 3; [segundo parcial 2025](zotero://select/library/items/DHM5X7QD), pregunta 1. La procedencia por ejercicio está en [[Fuentes Zotero y probabilidad#Ondas y acústica: fuentes consultadas para el módulo]].
+
+## Autoevaluación de conceptos
+
+Explica primero cada respuesta con tus palabras; luego abre el bloque plegable para comparar.
+
+**1. En una onda sonora, ¿qué se propaga y qué se mueve localmente? ¿La rapidez $v=\lambda f$ describe ambas cosas?**
+
+> [!success]- Mostrar explicación
+> Se propaga la perturbación que transporta energía; las partículas del medio oscilan alrededor de su posición de equilibrio. $v=\lambda f$ describe la rapidez de propagación de la onda, no la rapidez instantánea de las moléculas de aire.
+
+**2. ¿Por qué presión y desplazamiento del aire no alcanzan sus máximos a la vez en una onda sinusoidal?**
+
+> [!success]- Mostrar explicación
+> La variación de presión está ligada a cuánto cambia espacialmente el desplazamiento, es decir, a su gradiente. Al derivar una función sinusoidal aparece un desfase de un cuarto de ciclo. Por eso, cuando el desplazamiento local está en un extremo, la variación de presión pasa por cero; en una compresión máxima, el desplazamiento local pasa por cero.
+
+**3. ¿Qué haces antes de convertir a decibeles la contribución de varias fuentes sonoras independientes?**
+
+> [!success]- Mostrar explicación
+> Sumas las intensidades en $\mathrm{W/m^2}$, porque son las magnitudes físicas lineales que transportan energía por área y tiempo. Después calculas $\beta=10\log_{10}(I_{tot}/I_0)$. Los decibeles no se suman directamente.
+
+**4. ¿Cómo distingues el efecto de una fuente móvil del efecto de un observador móvil en Doppler?**
+
+> [!success]- Mostrar explicación
+> La fuente móvil cambia el espaciamiento de los frentes en el aire: al acercarse, acorta la longitud de onda delante de ella. El observador móvil no altera ese espaciamiento; cambia la rapidez con que intercepta los frentes. Si se acerca a la fuente, encuentra más frentes por segundo y recibe una frecuencia mayor.

@@ -27,3 +27,22 @@ El primero muestra la orientación espacial de los campos. El segundo permite le
 ## Alcance para el parcial
 
 Se practican ondas sinusoidales en el vacío: frecuencia, longitud de onda, amplitudes, número de onda, frecuencia angular, ecuaciones de campo y dirección de propagación. No se desarrolla óptica geométrica ni fenómenos de interfaz.
+
+## Autoevaluación del módulo
+
+Intenta explicar las decisiones sin consultar los formularios; abre luego la explicación plegable.
+
+**1. En el vacío, si $\vec E$ apunta en $+y$ y la onda avanza en $+x$, ¿en qué sentido apunta $\vec B$?**
+
+> [!success]- Mostrar explicación
+> Debe cumplirse que $\vec E\times\vec B$ apunte en el sentido de propagación. Como $\hat y\times\hat z=\hat x$, el campo magnético apunta en $+z$. También puedes usar $\vec B=(1/c)\hat n\times\vec E$ y comprobar el resultado con $\vec E\times\vec B$.
+
+**2. ¿Qué forma de fase describe una onda que viaja hacia $-x$ y cómo puedes comprobarlo?**
+
+> [!success]- Mostrar explicación
+> Una fase $kx+\omega t$ describe avance hacia $-x$. Mantén la fase constante y despeja la posición: $kx+\omega t=C$ implica $dx/dt=-\omega/k$. En cambio, $kx-\omega t$ da avance hacia $+x$.
+
+**3. ¿Qué relación conecta las amplitudes de los campos en el vacío y por qué no significa que sean magnitudes con las mismas unidades?**
+
+> [!success]- Mostrar explicación
+> Se cumple $E_{max}=cB_{max}$. El factor $c$ convierte teslas, unidad de campo magnético, en voltios por metro, unidad de campo eléctrico. Sus valores numéricos no tienen que ser iguales y sus unidades siguen siendo diferentes.

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="230" viewBox="0 0 760 230" role="img" aria-labelledby="title desc">
+  <title id="title">Alineación de planetas para sumar fuerzas sobre la Tierra</title>
+  <desc id="desc">Sobre una misma línea aparecen el Sol, Venus, la Tierra, Júpiter y Saturno. Venus está a la izquierda de la Tierra; Júpiter y Saturno, a la derecha. Sus fuerzas gravitatorias sobre la Tierra apuntan hacia cada planeta.</desc>
+  <defs>
+    <marker id="forceArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#176b87"/>
+    </marker>
+  </defs>
+  <rect width="760" height="230" rx="18" fill="#fbfcfe"/>
+  <text x="28" y="35" font-family="sans-serif" font-size="21" font-weight="700" fill="#172b3a">Orden de los cuerpos (esquema, no a escala)</text>
+  <line x1="55" y1="125" x2="710" y2="125" stroke="#77838a" stroke-width="3"/>
+  <circle cx="95" cy="125" r="28" fill="#f0b444" stroke="#a66d14" stroke-width="2"/>
+  <circle cx="245" cy="125" r="8" fill="#c79b67" stroke="#80603d"/>
+  <circle cx="330" cy="125" r="11" fill="#3888ad" stroke="#20546e" stroke-width="2"/>
+  <circle cx="485" cy="125" r="20" fill="#d8a34d" stroke="#8a6327" stroke-width="2"/>
+  <ellipse cx="630" cy="125" rx="35" ry="11" fill="none" stroke="#9a875f" stroke-width="4"/>
+  <circle cx="630" cy="125" r="17" fill="#d0b77e" stroke="#807149" stroke-width="2"/>
+  <text x="70" y="180" font-family="sans-serif" font-size="17" fill="#333">Sol</text>
+  <text x="216" y="180" font-family="sans-serif" font-size="17" fill="#333">Venus</text>
+  <text x="301" y="180" font-family="sans-serif" font-size="17" fill="#333">Tierra</text>
+  <text x="459" y="180" font-family="sans-serif" font-size="17" fill="#333">Júpiter</text>
+  <text x="602" y="180" font-family="sans-serif" font-size="17" fill="#333">Saturno</text>
+  <line x1="317" y1="78" x2="253" y2="78" stroke="#176b87" stroke-width="3" marker-end="url(#forceArrow)"/>
+  <line x1="343" y1="78" x2="470" y2="78" stroke="#176b87" stroke-width="3" marker-end="url(#forceArrow)"/>
+  <line x1="343" y1="55" x2="612" y2="55" stroke="#176b87" stroke-width="3" marker-end="url(#forceArrow)"/>
+  <text x="266" y="68" font-family="sans-serif" font-size="15" fill="#176b87">Fᵥ hacia el Sol</text>
+  <text x="372" y="68" font-family="sans-serif" font-size="15" fill="#176b87">Fⱼ</text>
+  <text x="500" y="46" font-family="sans-serif" font-size="15" fill="#176b87">Fₛₐₜ</text>
+</svg>

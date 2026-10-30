@@ -85,3 +85,22 @@ La elección de orientación de $\vec E$ puede ser arbitraria si el problema no 
 ## Fuentes de esta nota
 
 La presentación de Ondas Electromagnéticas explica la interacción de los campos y la propagación sin medio (Zotero, pp. 2–5). La práctica de ondas electromagnéticas aporta el problema del láser usado como transferencia (Zotero, p. 2). Véase [[Fuentes Zotero y probabilidad]].
+
+## Autoevaluación de conceptos
+
+Responde sin abrir la explicación y úsala luego para corregir o completar tu razonamiento.
+
+**1. ¿Qué oscila en una onda electromagnética y por qué puede propagarse en el vacío?**
+
+> [!success]- Mostrar explicación
+> Oscilan los campos eléctrico y magnético. Las ecuaciones de Maxwell relacionan sus variaciones y permiten que la perturbación se sostenga y avance sin que vibren partículas de un medio material; por eso, a diferencia del sonido, no necesita materia.
+
+**2. Si conoces el sentido de propagación y el de $\vec E$, ¿cómo determinas el sentido de $\vec B$?**
+
+> [!success]- Mostrar explicación
+> La dirección de energía debe coincidir con $\vec E\times\vec B$. Se calcula $\vec B$ con $\hat n\times\vec E$ y se comprueba después que $\vec E\times\vec B$ apunte como $\hat n$. Invertir el orden del producto vectorial cambia el signo.
+
+**3. ¿Qué información aporta el signo temporal en $kx\mp\omega t$ y qué relación tienen los campos en una onda plana sinusoidal?**
+
+> [!success]- Mostrar explicación
+> $kx-\omega t$ representa avance hacia $+x$ y $kx+\omega t$ hacia $-x$, como se verifica manteniendo fija la fase. Los campos $\vec E$ y $\vec B$ oscilan en fase; además, cada uno es perpendicular al otro y a la dirección de propagación.

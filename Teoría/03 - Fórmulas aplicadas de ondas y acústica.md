@@ -185,3 +185,32 @@ Esto justifica por qué $v_o$ va en el numerador y $v_s$ en el denominador. La f
 - [Presentación de ondas y sonido](zotero://select/library/items/WFMW87CP): rapidez en gases, líquidos y sólidos, PDF pp. 13–14; intensidad, p. 15; nivel, pp. 16–17; Doppler, pp. 18–22.
 - [Práctica de sonido 2021](zotero://select/library/items/ZFCVVKE5): ejercicios 1, 6–10 y 13–17.
 - [Modelos 2023, 2024 y 2025](zotero://select/library/items/YIXUYDMC), [2024](zotero://select/library/items/HQ9E54FP) y [2025](zotero://select/library/items/DHM5X7QD): familias de problemas de nivel sonoro, Doppler y presión-desplazamiento.
+
+## Autoevaluación de fórmulas
+
+Escribe primero el modelo y el significado de los datos; despliega después la explicación.
+
+**1. Una onda sonora tiene $f=500\,\mathrm{Hz}$ y avanza en aire a $340\,\mathrm{m/s}$. ¿Cómo hallarías $\lambda$ y $k$, y qué rapidez representa $v$?**
+
+> [!success]- Mostrar explicación
+> $\lambda=v/f=0.680\,\mathrm m$ y $k=2\pi/\lambda\approx9.24\,\mathrm{rad/m}$. El valor $v=\lambda f$ es la rapidez de propagación de la onda en el medio, no la rapidez instantánea de las partículas de aire.
+
+**2. Si te dan la amplitud máxima de presión, ¿cómo obtienes la amplitud de desplazamiento de las partículas y qué representa $B$?**
+
+> [!success]- Mostrar explicación
+> Usas $\Delta p_{max}=Bk s_{max}$, así que $s_{max}=\Delta p_{max}/(Bk)$. $B$ es el módulo volumétrico del medio y mide cuánto se resiste a comprimirse. La presión dada debe ser la variación máxima respecto del equilibrio, no la presión atmosférica total.
+
+**3. ¿Qué diferencia hay entre usar amplitud de presión máxima y presión eficaz para calcular intensidad?**
+
+> [!success]- Mostrar explicación
+> Con amplitud máxima se usa $I=(\Delta p_{max})^2/(2\rho v)$. Como $p_{rms}=\Delta p_{max}/\sqrt2$, con presión eficaz se usa $I=p_{rms}^2/(\rho v)$. No se debe aplicar el factor 2 en ambas formas.
+
+**4. Dos fuentes independientes producen intensidades $I$ y $3I$. ¿Cómo calculas el nivel total y el resultado especial para dos fuentes iguales?**
+
+> [!success]- Mostrar explicación
+> Primero sumas: $I_{tot}=I+3I=4I$. Luego calculas $\beta_{tot}=10\log_{10}(I_{tot}/I_0)$. Para dos fuentes iguales de intensidad $I$, $I_{tot}=2I$ y el nivel sube $10\log_{10}2\approx3.01\,\mathrm{dB}$.
+
+**5. Una ambulancia y un oyente se acercan entre sí. ¿Qué signos eliges en la convención de esta nota y qué tendencia debe dar la respuesta?**
+
+> [!success]- Mostrar explicación
+> El observador se mueve hacia la fuente, así que $v_o>0$; la fuente se mueve hacia el observador, así que $v_s>0$. En $f_{obs}=f_s(v+v_o)/(v-v_s)$ el numerador crece y el denominador disminuye, por lo que $f_{obs}>f_s$. Ambas velocidades se miden respecto del aire.

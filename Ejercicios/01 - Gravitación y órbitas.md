@@ -7,7 +7,7 @@ tags: [fisica-aplicada, ejercicios, gravitacion]
 **Teoría:** [[Teoría/01 - Gravitación y órbitas]] · **Resoluciones:** [[Resoluciones/01 - Gravitación y órbitas]] · **Método:** [[Ejercicios/00 - Método y registro]]
 
 > [!info] Cómo usar esta hoja
-> Se conserva la numeración global para que coincida con el plan. **M** reproduce un tipo de los modelos; **R** es una variante de entrenamiento. Resuelve primero sin abrir la pista; consulta la clave al final.
+> Se conserva la numeración global para que coincida con el plan. **M** reproduce un tipo de los modelos; **R** es una variante de entrenamiento; **C** identifica complementarios reescritos a partir del TP 5. Resuelve primero sin abrir la pista; consulta la clave al final. La prioridad estima cuánto conviene dedicarles según los modelos: alta, media o ampliación.
 
 ## Ejercicios del tema
 
@@ -208,6 +208,137 @@ Las flechas representan campos; las fuerzas sobre la esfera de prueba tienen los
 
 **Para comparar después:** [[Resoluciones/01 - Gravitación y órbitas]].
 
+## Complementarios del TP 5
+
+Los complementarios amplían el alcance del TP sin desplazar los ejercicios que coinciden con los modelos de parcial. Empieza por prioridad alta; deja las ampliaciones para el final.
+
+### C1. Fuerza entre las esferas de una balanza de Cavendish — **TP 5, ejercicio 1 · Prioridad media**
+
+**Situación.** Una esfera pequeña y una grande se atraen mutuamente. Se modelan como masas puntuales separadas por la distancia entre sus centros.
+
+**Datos**
+
+- $m_1=0.010\,\mathrm{kg}$.
+- $m_2=500\,\mathrm{g}$.
+- Separación entre centros: $r=0.050\,\mathrm{m}$.
+- $G=6.67\times10^{-11}\,\mathrm{N\,m^2/kg^2}$.
+
+**Se pide.** Calcula el módulo de la fuerza gravitatoria que cada esfera ejerce sobre la otra e indica la relación entre sus direcciones.
+
+> [!tip]- Pista de arranque
+>
+> Convierte primero $500\,\mathrm{g}$ a kilogramos. Aplica $F=Gm_1m_2/r^2$; por la tercera ley de Newton, las dos fuerzas tienen igual módulo y sentidos opuestos.
+
+### C2. Fuerza sobre una estrella en un triángulo de 45° — **TP 5, ejercicio 4 · Prioridad alta**
+
+**Situación.** Una estrella pequeña está en el origen. Dos estrellas grandes la atraen desde los vértices restantes de un triángulo rectángulo isósceles. El eje $+x$ apunta a la derecha y $+y$ hacia arriba.
+
+![[imagenes/fuerzas-estrellas-triangulo.svg]]
+
+**Datos**
+
+- Estrella pequeña en $(0,0)$, masa $m=1.00\times10^{30}\,\mathrm{kg}$.
+- Estrella $M_2$ en $(2.00\times10^{12},0)\,\mathrm{m}$, masa $8.00\times10^{30}\,\mathrm{kg}$.
+- Estrella $M_1$ en $(2.00\times10^{12},2.00\times10^{12})\,\mathrm{m}$, masa $8.00\times10^{30}\,\mathrm{kg}$.
+- $G=6.67\times10^{-11}\,\mathrm{N\,m^2/kg^2}$.
+
+**Se pide.** Calcula las componentes de la fuerza total sobre la estrella pequeña, su módulo y su dirección medida desde $+x$ hacia $+y$.
+
+> [!tip]- Pista de arranque
+>
+> Calcula por separado las fuerzas hacia $M_1$ y $M_2$. La primera está a $45^\circ$ y la segunda es horizontal; suma sus componentes, no sus módulos directamente.
+
+### C3. Fuerza planetaria sobre la Tierra durante una alineación — **TP 5, ejercicio 5 · Ampliación**
+
+**Situación.** En una alineación ideal, los planetas están ordenados en una misma recta como Sol–Venus–Tierra–Júpiter–Saturno. Calcula solo la fuerza gravitatoria ejercida por esos tres planetas sobre la Tierra; no incluyas la fuerza del Sol.
+
+![[imagenes/planetas-alineados.svg]]
+
+**Datos**
+
+- $M_E=5.97\times10^{24}\,\mathrm{kg}$.
+- $M_V=0.815M_E$, $M_J=318M_E$, $M_{Sat}=95.1M_E$.
+- Distancias medias al Sol: Venus $108$, Tierra $150$, Júpiter $778$ y Saturno $1430$ millones de km.
+- $G=6.67\times10^{-11}\,\mathrm{N\,m^2/kg^2}$.
+
+**Se pide.** Encuentra las distancias entre la Tierra y cada planeta, calcula las tres fuerzas con signo sobre un eje positivo alejándose del Sol y determina la fuerza resultante.
+
+> [!tip]- Pista de arranque
+>
+> Resta las distancias heliocéntricas para obtener $42$, $628$ y $1280$ millones de km. Venus atrae hacia el Sol; Júpiter y Saturno atraen en sentido contrario. Convierte cada distancia a metros antes de usar la ley de gravitación.
+
+### C4. De un peso en Marte a pesos en la Tierra — **TP 5, ejercicio 6 · Prioridad alta (a–c); ampliación (d)**
+
+**Situación.** Una persona pesa $45\,\mathrm{N}$ sobre la superficie de Marte. Se supone que las expresiones de campo de una esfera se aplican fuera de ella. Para la última parte, calcula únicamente la fuerza del Sol sobre la persona situada a una distancia de una unidad astronómica.
+
+**Datos**
+
+- $M_M=0.107M_E$, $R_M=3.36\times10^6\,\mathrm{m}$.
+- $M_E=5.97\times10^{24}\,\mathrm{kg}$, $R_E=6.38\times10^6\,\mathrm{m}$.
+- Peso en Marte: $W_M=45\,\mathrm{N}$.
+- Altura sobre la superficie terrestre: $h=500\,\mathrm{km}$.
+- Para la fuerza solar: $M_\odot=1.99\times10^{30}\,\mathrm{kg}$ y distancia Tierra–Sol $d=1.496\times10^{11}\,\mathrm{m}$.
+- $g_0=9.81\,\mathrm{m/s^2}$, $G=6.67\times10^{-11}\,\mathrm{N\,m^2/kg^2}$.
+
+**Se pide.** a) Calcula la masa de la persona y explica si cambia al trasladarla. b) Calcula su peso en la superficie terrestre. c) Calcula su peso a $500\,\mathrm{km}$ de altura. d) Calcula por separado la fuerza gravitatoria del Sol sobre ella en la órbita terrestre.
+
+> [!tip]- Pista de arranque
+>
+> Halla primero $g_M=GM_M/R_M^2$ y usa $m=W_M/g_M$. La masa permanece igual; para el peso a altura usa $r=R_E+h$. En la parte d aplica $F=GM_\odot m/d^2$; esa fuerza no es el peso que marca una balanza.
+
+### C5. Cómo cambia la gravedad al cambiar masa y radio — **TP 5, ejercicios 7 y 8 · Prioridad media**
+
+**Situación.** Compara la aceleración gravitatoria en la superficie de planetas esféricos con la de la Tierra.
+
+**Se pide.** a) Un planeta tiene la misma masa que la Tierra y un radio $2.3R_E$. Calcula su $g$ si $g_E=9.81\,\mathrm{m/s^2}$. b) Si la masa de otro planeta se duplica y su radio se triplica, ¿por qué factor cambia su gravedad superficial?
+
+> [!tip]- Pista de arranque
+>
+> Parte de $g=GM/R^2$. En cada caso forma el cociente $g'/g_E$ o $g'/g$ antes de sustituir; así se cancelan las constantes que no cambian.
+
+### C6. Período orbital de Neptuno — **TP 5, ejercicio 11 · Prioridad alta**
+
+**Situación.** Neptuno y la Tierra orbitan el Sol. Usa la Tierra como referencia y supone órbitas circulares para aplicar la misma relación de Kepler.
+
+**Datos**
+
+- Distancia media Neptuno–Sol: $r_N=4.5\times10^9\,\mathrm{km}$.
+- Distancia media Tierra–Sol: $r_E=1.50\times10^8\,\mathrm{km}$.
+- Período terrestre: $T_E=1.00\,\mathrm{año}$.
+
+**Se pide.** Estima el período orbital de Neptuno en años terrestres.
+
+> [!tip]- Pista de arranque
+>
+> Usa $T_N/T_E=(r_N/r_E)^{3/2}$. Las distancias pueden permanecer en kilómetros porque aparecen en un cociente; calcula ese cociente antes de elevarlo.
+
+### C7. Satélite: órbita y energía necesaria para escapar — **TP 5, ejercicio 13 · Prioridad alta**
+
+**Situación.** Un satélite de masa $m$ recorre una órbita circular alrededor de un planeta. La energía que se pide es el aumento mínimo de energía mecánica para pasar desde esa órbita hasta el infinito con rapidez final nula.
+
+**Datos**
+
+- $m=5000\,\mathrm{kg}$.
+- Masa del planeta: $M=2.2\times10^{24}\,\mathrm{kg}$.
+- Radio orbital medido desde el centro: $r=30000\,\mathrm{km}$.
+- $G=6.67\times10^{-11}\,\mathrm{N\,m^2/kg^2}$.
+
+**Se pide.** Calcula el período, la rapidez orbital, la rapidez de escape desde ese radio y el aumento mínimo de energía mecánica necesario para escapar desde la órbita circular.
+
+> [!tip]- Pista de arranque
+>
+> Convierte $r$ a metros. Usa $v_{orb}=\sqrt{GM/r}$, $T=2\pi\sqrt{r^3/(GM)}$ y $v_{esc}=\sqrt{2GM/r}$. La energía orbital inicial es $-GMm/(2r)$; llevarla a cero requiere una energía positiva de igual módulo.
+
+### C8. Por qué una caída corta da $v\approx\sqrt{2gh}$ — **TP 5, ejercicio 15 · Ampliación**
+
+**Situación.** Un cuerpo se suelta desde el reposo a una altura $h$ sobre la superficie terrestre. Se desprecia la resistencia del aire. Cuando $h\ll R_E$, la gravedad varía muy poco durante la caída.
+
+**Se pide.** Partiendo de la conservación de la energía gravitatoria, demuestra que la rapidez al llegar al suelo se aproxima por $v\approx\sqrt{2gh}$, donde $g=GM_E/R_E^2$ es la gravedad superficial.
+
+> [!tip]- Pista de arranque
+>
+> Escribe la energía potencial inicial a $R_E+h$ y la final a $R_E$. Simplifica la diferencia exacta y luego usa $R_E+h\approx R_E$, válido cuando $h/R_E$ es pequeño.
+
 ## Clave breve
 
 > [!example]- Clave breve — abrir solo después de intentar
@@ -222,3 +353,11 @@ Las flechas representan campos; las fuerzas sobre la esfera de prueba tienen los
 > 8. En el punto medio, $F_{net}=2.50\times10^{-7}\,\mathrm{N}$ hacia $M_2$; el punto nulo está a $1.55\,\mathrm{m}$ de $M_1$.
 > 9. $a_c=2.20\,\mathrm{m/s^2}$; $g_{ef}=22.9\,\mathrm{m/s^2}=2.34g_\oplus$.
 > 10. $U_i=-1.04\times10^{10}\,\mathrm{J}$; $U_f=-6.24\times10^{10}\,\mathrm{J}$; $v_f=1.02\times10^4\,\mathrm{m/s}$; $W_g=+5.20\times10^{10}\,\mathrm{J}$.
+> C1. $F=1.33\times10^{-10}\,\mathrm{N}$ sobre cada esfera; sentidos opuestos.
+> C2. $F_x=1.81\times10^{26}\,\mathrm{N}$; $F_y=4.72\times10^{25}\,\mathrm{N}$; $|\vec F|=1.87\times10^{26}\,\mathrm{N}$ a $14.6^\circ$ sobre $+x$.
+> C3. $F_V=1.10\times10^{18}\,\mathrm{N}$ hacia el Sol; $F_J=1.92\times10^{18}\,\mathrm{N}$ y $F_{Sat}=1.38\times10^{17}\,\mathrm{N}$ alejándose del Sol; resultante $9.56\times10^{17}\,\mathrm{N}$ alejándose del Sol.
+> C4. $m=11.9\,\mathrm{kg}$; $W_E=117\,\mathrm{N}$; $W_{500\,km}=101\,\mathrm{N}$; $F_\odot=7.07\times10^{-2}\,\mathrm{N}$ hacia el Sol.
+> C5. a) $g'=1.85\,\mathrm{m/s^2}$. b) $g'/g=2/9$.
+> C6. $T_N\approx164\,\mathrm{años}$.
+> C7. $T=8.52\times10^4\,\mathrm{s}=23.7\,\mathrm{h}$; $v_{orb}=2.21\times10^3\,\mathrm{m/s}$; $v_{esc}=3.13\times10^3\,\mathrm{m/s}$; $\Delta E=1.22\times10^{10}\,\mathrm{J}$.
+> C8. $v=\sqrt{2GM_Eh/[R_E(R_E+h)]}\approx\sqrt{2GM_Eh/R_E^2}=\sqrt{2gh}$ cuando $h\ll R_E$.

@@ -214,3 +214,27 @@ $g_{\\text{ef}}$ determina el peso aparente que leería una balanza: $W_{\\text{
 Las ecuaciones de gravitación, peso, energía y órbitas se contrastaron con [el capítulo 12 del libro](zotero://select/library/items/ATATDN6I), en particular las ecuaciones 12.1, 12.3–12.5 y 12.9–12.17 (PDF pp. 2, 6, 9, 12–13 y 16). El formulario del [modelo 2025](zotero://select/library/items/6GRRT3TK) también proporciona las expresiones de fuerza, energía circular, escape y período. La corrección de peso aparente se contrastó con el ejercicio 9 del [TP 5](zotero://select/library/items/F4BGIQ83).
 
 **Sigue con:** [[Ejercicios/01 - Gravitación y órbitas]] · [[Resoluciones/01 - Gravitación y órbitas]]
+
+## Autoevaluación de fórmulas
+
+Intenta justificar la elección o el despeje antes de abrir la explicación.
+
+**1. Si una masa está a altura $h=R$ sobre la superficie, ¿qué fracción del campo superficial experimenta y qué distancia debes usar en la razón?**
+
+> [!success]- Mostrar explicación
+> La distancia al centro es $r=R+h=2R$, no $R$. Como $g=GM/r^2$, la razón es $g/g_{sup}=R^2/(2R)^2=1/4$. Duplicar la distancia al centro reduce el campo a la cuarta parte.
+
+**2. ¿Cómo se obtiene la rapidez de una órbita circular y por qué la masa del satélite se cancela?**
+
+> [!success]- Mostrar explicación
+> Se iguala la fuerza gravitatoria con la fuerza radial neta necesaria para el movimiento circular: $GMm/r^2=mv^2/r$. La masa del satélite $m$ aparece en ambos lados y se cancela, de donde $v=\sqrt{GM/r}$. La cancelación expresa que, en este modelo, la aceleración gravitatoria no depende de la masa del satélite.
+
+**3. ¿Qué condición de energía define la rapidez de escape y cómo se diferencia del cálculo de rapidez orbital?**
+
+> [!success]- Mostrar explicación
+> Para escapar justo, el objeto llega al infinito con rapidez final cero y energía potencial cero. Se impone $\frac12mv_{esc}^2-GMm/r=0$, lo que da $v_{esc}=\sqrt{2GM/r}$. En una órbita circular se igualan fuerza gravitatoria y requerimiento centrípeto, y se obtiene $v_{orb}=\sqrt{GM/r}$; son condiciones físicas distintas.
+
+**4. ¿Qué cantidades comparas para hallar el radio de una órbita a partir de períodos alrededor de la misma masa central?**
+
+> [!success]- Mostrar explicación
+> Usas $T^2/r^3=4\pi^2/(GM)$ para cada órbita. Como $M$ es común, $T_1^2/r_1^3=T_2^2/r_2^3$, así que $r_2=r_1(T_2/T_1)^{2/3}$. Verifica que ambos períodos correspondan al mismo cuerpo central.
