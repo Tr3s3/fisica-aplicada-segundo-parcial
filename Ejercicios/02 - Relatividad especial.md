@@ -116,7 +116,7 @@ tags: [fisica-aplicada, ejercicios, relatividad]
 
 ## Complementarios del TP
 
-Estos ejercicios completan habilidades del TP que no estaban desarrolladas en la práctica principal. Prioriza C1; resuelve C2–C4 para afianzar la medición de longitudes y tiempos desde distintos marcos. C5 es una ampliación de baja prioridad: no aparece en los modelos de parcial revisados.
+Estos ejercicios completan habilidades del TP que no estaban desarrolladas en la práctica principal. C1 profundiza la identificación del tiempo propio; C2–C4 entrenan mediciones de longitudes y tiempos desde distintos marcos. C6 aplica la dilatación a los muones. C5 (energía de electrones) y C7 (vuelo a velocidad cotidiana) quedan como ampliaciones de baja prioridad: no aparecen en los modelos revisados.
 
 ### C1. Identificar el tiempo propio en dos marcos — TP, problema 3, pp. 13–15 — **Alta**
 
@@ -210,6 +210,48 @@ Estos ejercicios completan habilidades del TP que no estaban desarrolladas en la
 
 **Para comparar después:** [[Resoluciones/02 - Relatividad especial#C5. Energía y rapidez de electrones]].
 
+### C6. Vida media de un muón y distancia recorrida — TP, problema 2, pp. 11–12 — **Media**
+
+**Situación.** Un muón se produce en la atmósfera y se desplaza hacia la Tierra a una rapidez cercana a $c$. En el marco donde el muón está en reposo, su vida media es el tiempo propio. Calcula cuánto dura en promedio el proceso según la Tierra y qué distancia recorre en ese marco antes de desintegrarse.
+
+**Datos**
+
+- Vida media propia: $\Delta t_0=2.20\times10^{-6}\,\mathrm{s}$.
+- Rapidez del muón respecto de la Tierra: $v=0.990c$.
+- $c=3.00\times10^8\,\mathrm{m/s}$.
+
+**Se pide.** (a) Calcula la vida media medida desde la Tierra. (b) Estima la distancia media recorrida antes de la desintegración, según la Tierra.
+
+> [!info] Alcance
+> El TP pide la vida media terrestre; la distancia del inciso (b) se agrega para interpretar qué significa ese intervalo en el marco de la Tierra.
+
+![[imagenes/marcos-relatividad.svg]]
+
+> [!tip]- Pista de arranque
+> La producción y la desintegración ocurren en el mismo lugar del marco del muón, así que $\Delta t_0$ es el tiempo propio. Usa $\Delta t=\gamma\Delta t_0$; para la distancia, combina $v$ y $\Delta t$ medidos en el marco terrestre.
+
+**Para comparar después:** [[Resoluciones/02 - Relatividad especial#C6. Vida media de un muón y distancia recorrida]].
+
+### C7. Dilatación temporal durante un vuelo — TP, problema 1, pp. 9–10 — **Ampliación**
+
+**Situación.** Un avión viaja de San Francisco a Nueva York, una distancia aproximada de $4.80\times10^6\,\mathrm{m}$, a rapidez constante de $300\,\mathrm{m/s}$. Idealiza el vuelo como un movimiento rectilíneo uniforme y compara el intervalo medido en Tierra con el registrado por un reloj que viaja en el avión.
+
+**Datos**
+
+- Distancia entre ciudades: $D=4.80\times10^6\,\mathrm{m}$.
+- Rapidez del avión: $v=300\,\mathrm{m/s}$.
+- $c=3.00\times10^8\,\mathrm{m/s}$.
+
+**Se pide.** (a) Calcula el tiempo de vuelo terrestre. (b) Estima el tiempo propio registrado en el avión y la diferencia entre ambos intervalos. Explica por qué una calculadora común puede mostrar los dos tiempos iguales.
+
+> [!info] Alcance
+> El TP compara los dos tiempos; aquí se explicita también la diferencia aproximada para mostrar por qué desaparece al redondear.
+
+> [!tip]- Pista de arranque
+> En Tierra, $\Delta t=D/v$. El reloj que viaja con el avión mide el tiempo propio: $\Delta t_0=\Delta t\sqrt{1-v^2/c^2}$. Como $v/c$ es muy pequeño, usa $\sqrt{1-x}\approx1-x/2$ para estimar la diminuta diferencia sin perderla por redondeo.
+
+**Para comparar después:** [[Resoluciones/02 - Relatividad especial#C7. Dilatación temporal durante un vuelo]].
+
 ## Clave breve
 
 > [!example]- Clave breve — abrir solo después de intentar
@@ -224,5 +266,7 @@ Estos ejercicios completan habilidades del TP que no estaban desarrolladas en la
 > C3. $v=0.952c\approx2.86\times10^8\,\mathrm{m/s}$.
 > C4. (a) $3568\,\mathrm{m}$; (b) $9.00\times10^{-5}\,\mathrm{s}$; (c) $8.92\times10^{-5}\,\mathrm{s}$.
 > C5. (a) $E_0\approx8.19\times10^{-14}\,\mathrm{J}=5.11\times10^5\,\mathrm{eV}=0.511\,\mathrm{MeV}$. (b) $20.0\,\mathrm{kV}: v=0.272c\approx8.15\times10^7\,\mathrm{m/s}$; $5.00\,\mathrm{MV}: v=0.996c\approx2.99\times10^8\,\mathrm{m/s}$.
+> C6. $\gamma=7.09$; $\Delta t_T=1.56\times10^{-5}\,\mathrm{s}$; distancia media $d\approx4.63\,\mathrm{km}$.
+> C7. Tierra: $1.60\times10^4\,\mathrm{s}$. El intervalo propio es menor en aproximadamente $8\,\mathrm{ns}$; a tres cifras significativas ambos se redondean al mismo valor.
 
 **Fuentes de los tipos M:** modelos del segundo parcial y problemas guardados en Zotero, documentados en [[Fuentes Zotero y probabilidad#Relatividad especial: fuentes consultadas para el módulo]].

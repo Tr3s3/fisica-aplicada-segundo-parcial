@@ -103,26 +103,46 @@ Si $h=0.35R$, $r=1.35R$, no $0.35R$. Al comparar pesos no hace falta hallar la m
 
 ## 3. Órbita circular y período
 
-La aceleración radial necesaria es $v^2/r$. La gravedad la proporciona:
+La velocidad instantánea de un cuerpo que gira en una circunferencia es tangente al recorrido. Si $\theta$ se mide en radianes, el arco es $s=r\theta$; al dividir el cambio de arco por el tiempo, se obtiene la rapidez tangencial:
 
 $$
-G\frac{Mm}{r^2}=m\frac{v^2}{r}.
+v_t=\frac{ds}{dt}=r\omega,
+\qquad
+\omega=\left|\frac{d\theta}{dt}\right|.
+$$
+
+En movimiento circular uniforme, una vuelta recorre $2\pi r$ en un período $T$, de modo que $\omega=2\pi/T$ y
+
+$$
+v_t=\frac{2\pi r}{T}.
+$$
+
+La componente radial de la aceleración es centrípeta y apunta al centro:
+
+$$
+a_c=\frac{v_t^2}{r}.
+$$
+
+Si la rapidez cambia, puede haber además aceleración tangencial. En una órbita circular uniforme, la componente centrípeta es toda la aceleración y la gravedad la proporciona:
+
+$$
+G\frac{Mm}{r^2}=m\frac{v_t^2}{r}.
 $$
 
 Se cancela la masa del satélite y queda
 
 $$
-v_{\mathrm{orb}}=\sqrt{\frac{GM}{r}}.
+v_{\mathrm{orb}}=v_t=\sqrt{\frac{GM}{r}}.
 $$
 
-Una vuelta recorre $2\pi r$, así que
+Por lo tanto, si se conoce el período, puedes obtener la rapidez tangencial por la longitud de la vuelta; si se conoce la masa central y el radio, puedes obtener la rapidez orbital con la gravedad. En una órbita circular son la misma rapidez:
 
 $$
-T=\frac{2\pi r}{v_{\mathrm{orb}}}
+T=\frac{2\pi r}{v_t}
 =2\pi\sqrt{\frac{r^3}{GM}}.
 $$
 
-La primera forma sirve cuando ya calculaste la rapidez; la segunda, cuando quieres hallar el período directamente.
+La primera igualdad sale de distancia recorrida dividida por rapidez; la segunda sustituye $v_t=\sqrt{GM/r}$.
 
 ## 4. Energía orbital y escape
 

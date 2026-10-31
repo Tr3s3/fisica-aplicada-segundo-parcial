@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+  <title id="title">Modo fundamental de una onda electromagnética entre paredes conductoras</title>
+  <desc id="desc">La amplitud del campo eléctrico tiene nodos en las dos paredes y un máximo en el centro. La amplitud del campo magnético tiene máximos en las paredes y un nodo central. La separación entre paredes es media longitud de onda.</desc>
+  <rect width="900" height="500" rx="18" fill="#fbfcfe"/>
+  <text x="450" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#17324d">Cavidad conductora · modo fundamental (m = 1)</text>
+  <rect x="155" y="78" width="14" height="330" rx="3" fill="#4b5563"/>
+  <rect x="731" y="78" width="14" height="330" rx="3" fill="#4b5563"/>
+  <text x="162" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#374151">pared</text>
+  <text x="738" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#374151">pared</text>
+  <line x1="169" y1="202" x2="731" y2="202" stroke="#9ca3af" stroke-width="2"/>
+  <path d="M169 202 C280 202 340 105 450 105 C560 105 620 202 731 202" fill="none" stroke="#2176ae" stroke-width="6"/>
+  <circle cx="169" cy="202" r="7" fill="#bd3a32"/>
+  <circle cx="731" cy="202" r="7" fill="#bd3a32"/>
+  <circle cx="450" cy="105" r="7" fill="#e0a020"/>
+  <text x="103" y="208" text-anchor="end" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#2176ae">|E|</text>
+  <text x="169" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#9b2c24">nodo</text>
+  <text x="450" y="91" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#8a5a00">máximo</text>
+  <text x="731" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#9b2c24">nodo</text>
+  <line x1="169" y1="324" x2="731" y2="324" stroke="#9ca3af" stroke-width="2"/>
+  <path d="M169 324 C260 324 300 396 356 396 C410 396 430 324 450 324 C470 324 490 396 544 396 C600 396 640 324 731 324" fill="none" stroke="#198754" stroke-width="6"/>
+  <circle cx="169" cy="324" r="7" fill="#e0a020"/>
+  <circle cx="731" cy="324" r="7" fill="#e0a020"/>
+  <circle cx="450" cy="324" r="7" fill="#bd3a32"/>
+  <text x="103" y="330" text-anchor="end" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#198754">|B|</text>
+  <text x="169" y="356" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#8a5a00">máximo</text>
+  <text x="450" y="356" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#9b2c24">nodo</text>
+  <text x="731" y="356" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#8a5a00">máximo</text>
+  <line x1="169" y1="448" x2="731" y2="448" stroke="#374151" stroke-width="2"/>
+  <path d="M169 448 l12 -7 v14 z M731 448 l-12 -7 v14 z" fill="#374151"/>
+  <text x="450" y="477" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#1f2937">L = λ/2  →  λ₁ = 2L</text>
+</svg>

@@ -7,12 +7,12 @@ tags: [fisica-aplicada, teoria, ondas-em]
 **Recorrido:** [[Teoría/00 - Mapa y formulario general|Mapa general]] → [[Teoría/04 - Conceptos de ondas electromagnéticas|conceptos]] → [[Teoría/04 - Fórmulas aplicadas de ondas electromagnéticas|fórmulas]] → [[Ejercicios/04 - Ondas electromagnéticas|práctica]] → [[Resoluciones/04 - Ondas electromagnéticas|resoluciones]]
 
 > [!summary] Idea central
-> En el vacío, una onda electromagnética se propaga sin medio material. Sus campos eléctrico y magnético oscilan en fase, son perpendiculares entre sí y al avance; además, sus amplitudes cumplen $E_{max}=cB_{max}$.
+> Las leyes de Maxwell conectan los campos eléctrico y magnético variables y, en el vacío, producen una onda que avanza a $c$ sin medio material. En una onda plana sinusoidal, los campos oscilan en fase, son perpendiculares entre sí y al avance, y cumplen $E_{max}=cB_{max}$.
 
 ## Cómo estudiar este módulo
 
-1. Lee [[Teoría/04 - Conceptos de ondas electromagnéticas|qué representa físicamente cada campo]].
-2. Estudia [[Teoría/04 - Fórmulas aplicadas de ondas electromagnéticas|qué relaciona cada fórmula y cuándo usarla]].
+1. Lee [[Teoría/04 - Conceptos de ondas electromagnéticas|qué representa físicamente cada campo y cómo las leyes de Maxwell llevan a una onda]].
+2. Estudia [[Teoría/04 - Fórmulas aplicadas de ondas electromagnéticas|de dónde salen las relaciones y cuándo usar cada fórmula]].
 3. Resuelve primero el ejercicio 20, basado en el modelo; luego el 21, que invierte el sentido de avance y exige comprobar los signos.
 4. Compara con las [[Resoluciones/04 - Ondas electromagnéticas|resoluciones paso a paso]] y vuelve a dibujar $\vec E$, $\vec B$ y la dirección de propagación.
 

@@ -25,6 +25,23 @@ En mecánica cotidiana se suman velocidades como si el tiempo fuera idéntico pa
 
 Usamos $c=3.00\times10^8\,\mathrm{m/s}$ como valor aproximado de la rapidez de la luz. Un objeto con masa no alcanza $c$.
 
+### Por qué no basta con la transformación clásica
+
+Supongamos que el marco $S'$ se mueve en la dirección $+x$ con rapidez $v$ respecto de $S$. La transformación clásica supone que ambos marcos comparten el mismo tiempo: $t'=t$, y relaciona las posiciones mediante $x'=x-vt$. Al derivar se obtiene la suma clásica de velocidades. Para un rayo que avanza en $+x$, esa regla predeciría $c'=c-v$ (o $c+v$, según cuál marco se despeje), aunque el segundo postulado exige que ambos observadores midan $c$. La contradicción muestra que no se puede conservar el supuesto de un tiempo universal.
+
+La transformación de Lorentz ajusta conjuntamente posición y tiempo:
+
+$$
+x'=\gamma(x-vt),\qquad t'=\gamma\left(t-\frac{vx}{c^2}\right).
+$$
+
+El término con $x$ en la ecuación del tiempo hace que dos sucesos separados puedan dejar de ser simultáneos al cambiar de marco. Como comprobación, si la luz sigue $x=ct$, entonces $x'/t'=c$ también: la transformación conserva la rapidez de la luz.
+
+![[imagenes/suma-galileana-y-luz-libro.png|900]]
+
+> [!info] Figura 37.2 del libro, PDF p. 3 (p. 1270 del libro)
+> La suma clásica funciona como aproximación para el misil lento, pero predice una rapidez mayor que $c$ para la luz. La figura muestra por qué se necesitan relaciones relativistas entre las coordenadas.
+
 ## 3. El factor de Lorentz: cuánto importa el movimiento
 
 Para una rapidez relativa $v$ entre marcos, definimos
@@ -85,17 +102,44 @@ El intervalo $\Delta t$ medido desde el marco donde el reloj se mueve es mayor q
 
 **Cómo reconocerlo en un ejercicio:** escribe los dos eventos, por ejemplo “inicio” y “fin”; pregunta en qué marco suceden en el mismo lugar. El intervalo de ese marco es $\Delta t_0$. Después etiqueta como $\Delta t$ la medida del otro marco.
 
-## 5. Longitud propia, medición simultánea y contracción
+## 5. Simultaneidad, longitud propia y contracción
+
+### Qué significa que dos sucesos sean simultáneos
+
+Un suceso queda identificado por un lugar y un instante. Para decidir si dos sucesos separados ocurrieron al mismo tiempo, un observador necesita relojes sincronizados ubicados en esos lugares; comparar cuándo le llega la luz al ojo no basta, porque los tiempos de viaje pueden diferir.
+
+El experimento del tren ayuda a ver por qué la respuesta depende del marco. Sergio está quieto en el suelo, a igual distancia de los dos puntos donde caen los rayos. Si las señales llegan juntas a Sergio y él corrige el tiempo de propagación con su red de relojes sincronizados, concluye que los impactos fueron simultáneos en el marco terrestre. Magda viaja en el tren hacia uno de los frentes luminosos y se aleja del otro. Como ambos frentes viajan a rapidez $c$, ella recibe primero el que viene de adelante; usando sus propios relojes sincronizados, concluye que ese impacto ocurrió antes. Ninguno está usando un reloj defectuoso: los observadores asignan tiempos distintos a los mismos sucesos porque se mueven uno respecto del otro.
+
+![[imagenes/experimento-tren-simultaneidad-libro.png|720]]
+
+> [!info] Figura 37.5 del libro, PDF p. 6 (p. 1273 del libro)
+> Los dibujos distinguen los impactos de los momentos en que cada observador recibe la luz. La conclusión sobre simultaneidad requiere corregir el tiempo de viaje y usar relojes sincronizados en cada marco.
+
+La transformación de Lorentz expresa esta diferencia para dos sucesos:
+
+$$
+\Delta t'=\gamma\left(\Delta t-\frac{v\,\Delta x}{c^2}\right).
+$$
+
+Si Sergio mide los impactos simultáneamente, $\Delta t=0$. Para impactos separados en la dirección del movimiento, $\Delta x\ne0$, resulta $\Delta t'=-\gamma v\Delta x/c^2\ne0$. Por tanto, la simultaneidad no es absoluta: depende del marco que asigna los tiempos.
+
+### De la simultaneidad a la contracción de longitud
 
 La **longitud propia**, $L_0$, es la longitud medida en el marco donde el objeto está en reposo. Para medir una longitud desde cualquier marco hay que registrar dónde están sus dos extremos **al mismo tiempo en ese marco**. En la Tierra, por ejemplo, se pueden usar dos reglas o relojes sincronizados situados junto a los extremos de la nave.
 
-La simultaneidad no es absoluta: dos eventos simultáneos para la Tierra pueden no ser simultáneos para la nave. Por eso, al medir la nave en movimiento desde la Tierra, no se toma la separación entre dos sucesos escogidos simultáneamente en la nave; se registran las posiciones de ambos extremos en un mismo instante terrestre. La longitud paralela al movimiento resulta
+La contracción se obtiene de la transformación de Lorentz, no de una regla independiente. Llamemos $S'$ al marco donde la nave está quieta y $S$ al marco terrestre, desde el que la nave se mueve en $+x$ con rapidez $v$. Para los dos eventos que registran los extremos, la Tierra exige simultaneidad: $\Delta t=0$. Entonces,
 
 $$
-L=\frac{L_0}{\gamma}.
+\Delta x'=\gamma(\Delta x-v\Delta t)=\gamma\Delta x.
 $$
 
-La dimensión paralela al movimiento se contrae; las dimensiones perpendiculares no aparecen contraídas en este modelo. La diferencia no es una ilusión óptica. Las dos mediciones se hacen correctamente, pero utilizan distintos marcos y distintos pares de eventos simultáneos.
+En el marco $S'$, los extremos están fijos; por eso su separación coordenada es la longitud propia $L_0=\Delta x'$. En el marco terrestre, la separación medida es $L=\Delta x$. De $L_0=\gamma L$ se obtiene
+
+$$
+L=\frac{L_0}{\gamma}=L_0\sqrt{1-\frac{v^2}{c^2}}.
+$$
+
+Los eventos usados por la Tierra suelen no ser simultáneos en $S'$, pero eso no cambia la separación entre los extremos porque la nave permanece en reposo allí. En cambio, cada marco debe usar su propia pareja de eventos simultáneos para medir longitud. La contracción afecta la dimensión paralela al movimiento; las dimensiones perpendiculares no aparecen contraídas en este modelo. No es una ilusión óptica: es una diferencia entre mediciones espaciales bien definidas en marcos distintos.
 
 ![[imagenes/medicion-longitud-simultanea.svg]]
 
@@ -111,9 +155,29 @@ Aquí $v$ es la velocidad de $S'$ respecto de $S$, $u'$ es la velocidad del obje
 
 La ecuación cambia al invertir qué marco se considera móvil. Por eso conviene dibujar el eje y asignar signos **antes** de usarla. El resultado debe tener módulo menor que $c$.
 
+### De dónde sale la suma relativista
+
+Las coordenadas no se transforman por separado: también cambia el intervalo de tiempo. Con la convención de arriba, la transformación inversa es
+
+$$
+\Delta x=\gamma(\Delta x'+v\Delta t'),\qquad
+\Delta t=\gamma\left(\Delta t'+\frac{v\Delta x'}{c^2}\right).
+$$
+
+Al dividir desplazamiento por tiempo y escribir $u'=\Delta x'/\Delta t'$, se obtiene $u=(u'+v)/(1+u'v/c^2)$. El denominador aparece porque $\Delta t$ también depende del desplazamiento $\Delta x'$; no es una corrección añadida a mano. Si $u'=c$, la expresión devuelve $u=c$, como requieren los postulados. El despeje algebraico paso a paso está en [[Teoría/02 - Fórmulas aplicadas de relatividad especial#4. Suma relativista de velocidades colineales]].
+
 ## 7. Un límite útil: volver a la mecánica clásica
 
 Cuando todas las velocidades son pequeñas comparadas con $c$, los términos $v^2/c^2$ y $u'v/c^2$ son pequeños. Entonces $\gamma\approx1$, los tiempos y longitudes casi coinciden, y la suma relativista se aproxima a $u\approx u'+v$.
+
+La primera diferencia respecto del resultado clásico aparece en el orden $\beta^2$, donde $\beta=v/c$. Con la aproximación binomial $(1-x)^{-1/2}\approx1+x/2$ para $x\ll1$,
+
+$$
+\gamma\approx1+\frac{\beta^2}{2},\qquad
+\Delta t_0=\frac{\Delta t}{\gamma}\approx\Delta t\left(1-\frac{\beta^2}{2}\right).
+$$
+
+Por eso, a velocidades cotidianas el efecto puede ser real pero demasiado pequeño para aparecer en un resultado redondeado; el vuelo del ejercicio C7 practica cómo estimar esa corrección.
 
 Este límite permite entender por qué la mecánica clásica funciona tan bien en situaciones cotidianas y también sirve para detectar errores: si en un problema a $0.8c$ se obtiene exactamente la suma clásica, probablemente se aplicó el modelo equivocado.
 
@@ -137,7 +201,7 @@ Esta relación explica por qué la rapidez de un electrón crece cada vez menos 
 
 ## Fuentes de esta explicación
 
-- [Capítulo de relatividad guardado en Zotero](zotero://select/library/items/YB8669CS): postulados y simultaneidad, PDF pp. 1–6; tiempo propio y dilatación, pp. 7–9; longitud, pp. 12–15; transformaciones de Lorentz y velocidad, pp. 17–19.
+- [Capítulo de relatividad guardado en Zotero](zotero://select/library/items/YB8669CS): postulados y límite de la transformación galileana, PDF pp. 1–4 (Fig. 37.2, p. 3); simultaneidad (Fig. 37.5), p. 6; tiempo propio y dilatación, pp. 7–9; longitud, pp. 12–15; transformación de Lorentz y velocidades, pp. 16–19.
 - [Problemas de relatividad aplicada](zotero://select/library/items/N655C6SK), PDF pp. 22–24: energía relativista de electrones como extensión del TP.
 - [Problemas de relatividad aplicada](zotero://select/library/items/N655C6SK): identificación del tiempo propio en el ejemplo inicial, p. 8; transformación de velocidades y alcance, p. 25.
 - El detalle de páginas y su relación con los modelos está en [[Fuentes Zotero y probabilidad#Relatividad especial: fuentes consultadas para el módulo]].
@@ -149,7 +213,7 @@ Responde cada pregunta por tu cuenta y despliega después su explicación razona
 **1. ¿Qué afirma el segundo postulado de la relatividad especial y qué límite impone a la suma de velocidades?**
 
 > [!success]- Mostrar explicación
-> La rapidez de la luz en el vacío es la misma para todo observador inercial, independientemente del movimiento de la fuente. Por eso, las velocidades relativas no pueden sumarse siempre con la regla clásica: la transformación de Lorentz reemplaza esa suma y mantiene la rapidez de la luz invariante. Para velocidades mucho menores que $c$, se recupera aproximadamente la mecánica clásica.
+> La rapidez de la luz en el vacío es la misma para todo observador inercial, independientemente del movimiento de la fuente. Si se conservara el tiempo universal de la transformación clásica, la suma de velocidades daría $c+v$ o $c-v$ para un rayo, en contradicción con ese postulado. La transformación de Lorentz cambia cómo se relacionan espacio y tiempo entre marcos y mantiene $c$ invariante. Para velocidades mucho menores que $c$, se recupera aproximadamente la mecánica clásica.
 
 **2. ¿Qué hace que un intervalo sea tiempo propio y por qué otro marco mide un intervalo mayor?**
 
@@ -159,7 +223,7 @@ Responde cada pregunta por tu cuenta y despliega después su explicación razona
 **3. ¿Por qué una medición de longitud requiere que los extremos se registren simultáneamente en el marco que mide?**
 
 > [!success]- Mostrar explicación
-> La longitud es la separación entre los extremos en un mismo instante de ese marco. Como la simultaneidad depende del marco, dos observadores pueden usar pares distintos de eventos para localizar los extremos. La longitud propia se mide en reposo con respecto al objeto; un observador que ve el objeto moverse mide una longitud menor en la dirección del movimiento.
+> La longitud es la separación entre los extremos en un mismo instante del marco que mide. La relación $\Delta t'=\gamma(\Delta t-v\Delta x/c^2)$ muestra que dos registros simultáneos en la Tierra ($\Delta t=0$) no suelen ser simultáneos en la nave ($\Delta t'\ne0$). La longitud propia se mide en el marco de reposo del objeto; al medir simultáneamente los extremos desde un marco donde se mueve, se obtiene $L=L_0/\gamma$ en la dirección del movimiento.
 
 **4. Una nave avanza hacia $+x$ y lanza un proyectil hacia atrás. ¿Qué signo tiene la velocidad del proyectil en el marco de la nave y para qué sirve ese signo?**
 

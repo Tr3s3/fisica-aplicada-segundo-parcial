@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+  <title id="title">Potencia de una antena repartida sobre un hemisferio</title>
+  <desc id="desc">La antena irradia potencia uniformemente hacia el hemisferio superior. Una sección muestra el área 2 pi por radio al cuadrado y la distancia desde la antena al satélite.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#245b87"/>
+    </marker>
+    <marker id="arrow-end" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#bd5b20"/>
+    </marker>
+  </defs>
+  <rect width="800" height="420" rx="18" fill="#fbfcfe"/>
+  <path d="M130 326 A270 270 0 0 1 670 326" fill="#e7f2fb" stroke="#245b87" stroke-width="4"/>
+  <path d="M105 326 H695" stroke="#374151" stroke-width="5"/>
+  <path d="M130 337 Q400 385 670 337" fill="none" stroke="#9ca3af" stroke-width="2" stroke-dasharray="8 7"/>
+  <circle cx="400" cy="326" r="9" fill="#bd5b20"/>
+  <path d="M400 326 L548 123" stroke="#bd5b20" stroke-width="4" marker-end="url(#arrow-end)"/>
+  <path d="M400 309 L548 106" stroke="#bd5b20" stroke-width="1.5" stroke-dasharray="7 6"/>
+  <rect x="533" y="91" width="34" height="18" rx="4" transform="rotate(-54 550 100)" fill="#f6c76b" stroke="#8a5a00" stroke-width="2"/>
+  <path d="M535 104 L508 85 M562 95 L586 111" stroke="#8a5a00" stroke-width="4"/>
+  <text x="414" y="356" font-family="Arial, sans-serif" font-size="21" fill="#1f2937">Antena</text>
+  <text x="576" y="87" font-family="Arial, sans-serif" font-size="20" fill="#1f2937">Satélite</text>
+  <text x="476" y="208" font-family="Arial, sans-serif" font-size="22" fill="#8b4513" transform="rotate(-54 476 208)">r</text>
+  <path d="M224 243 L185 199" stroke="#245b87" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M318 171 L303 112" stroke="#245b87" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M448 155 L462 96" stroke="#245b87" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="400" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#17324d">La onda cruza el hemisferio superior: A = 2πr²</text>
+  <text x="400" y="403" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#4b5563">Si la potencia se reparte uniformemente, I = P/A</text>
+</svg>

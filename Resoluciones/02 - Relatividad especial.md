@@ -414,9 +414,100 @@ $$
 
 **Control.** Al aumentar la diferencia de potencial, aumenta $\gamma$ y la rapidez se acerca a $c$, pero no la alcanza. La energía cinética adicional de $5.00\,\mathrm{MeV}$ es mucho mayor que la energía en reposo del electrón, por eso el segundo resultado queda muy próximo a $c$.
 
+## C6. Vida media de un muón y distancia recorrida
+
+**Interpretación.** Los eventos son la producción y la desintegración del muón. En el marco donde el muón está en reposo ocurren en el mismo punto, así que su vida media $\Delta t_0$ es propia. La Tierra ve al muón moverse y mide un intervalo mayor.
+
+**Datos e incógnitas**
+
+$$
+\Delta t_0=2.20\times10^{-6}\,\mathrm{s},\qquad
+v=0.990c,\qquad
+c=3.00\times10^8\,\mathrm{m/s}.
+$$
+
+### (a) Vida media medida desde la Tierra
+
+Calculamos el factor de Lorentz:
+
+$$
+\gamma=\frac{1}{\sqrt{1-(0.990)^2}}
+=\frac{1}{\sqrt{0.0199}}
+=7.0888.
+$$
+
+Como la Tierra mide el intervalo entre los mismos eventos mientras el muón se mueve, aplica la dilatación temporal:
+
+$$
+\Delta t_T=\gamma\Delta t_0
+=(7.0888)(2.20\times10^{-6}\,\mathrm{s})
+=1.56\times10^{-5}\,\mathrm{s}.
+$$
+
+La vida media terrestre es aproximadamente $15.6\,\mathrm{\mu s}$.
+
+### (b) Distancia media antes de desintegrarse
+
+Usamos la rapidez y el intervalo terrestres juntos:
+
+$$
+d_T=v\Delta t_T
+=(0.990)(3.00\times10^8\,\mathrm{m/s})(1.5595\times10^{-5}\,\mathrm{s})
+=4.63\times10^3\,\mathrm{m}
+=4.63\,\mathrm{km}.
+$$
+
+**Resultado y control.** La Tierra mide una vida media unas $7.09$ veces mayor que la propia, y durante ese tiempo el muón recorre en promedio cerca de $4.63\,\mathrm{km}$. La distancia usa $v$ y $\Delta t_T$ del mismo marco. La vida media propia del muón no cambia: cambia el intervalo que asigna la Tierra a esos dos eventos.
+
+## C7. Dilatación temporal durante un vuelo
+
+**Interpretación.** Idealizamos el recorrido como rectilíneo y a rapidez constante. El intervalo terrestre se obtiene de la distancia entre ciudades y la rapidez del avión. Los sucesos de salida y llegada ocurren junto al mismo reloj que viaja en el avión, por lo que ese reloj mide el tiempo propio $\Delta t_0$.
+
+**Datos**
+
+$$
+D=4.80\times10^6\,\mathrm{m},\qquad
+v=300\,\mathrm{m/s},\qquad
+c=3.00\times10^8\,\mathrm{m/s}.
+$$
+
+### (a) Tiempo de vuelo terrestre
+
+$$
+\Delta t=\frac{D}{v}
+=\frac{4.80\times10^6\,\mathrm{m}}{300\,\mathrm{m/s}}
+=1.60\times10^4\,\mathrm{s}
+\approx4.44\,\mathrm{h}.
+$$
+
+### (b) Corrección relativista del tiempo propio
+
+Primero comparamos la rapidez del avión con la de la luz:
+
+$$
+\beta=\frac{v}{c}=\frac{300}{3.00\times10^8}=1.00\times10^{-6},
+\qquad \beta^2=1.00\times10^{-12}.
+$$
+
+El tiempo propio se relaciona con el terrestre mediante
+
+$$
+\Delta t_0=\Delta t\sqrt{1-\beta^2}.
+$$
+
+Como $\beta^2$ es extremadamente pequeño, usamos $\sqrt{1-x}\approx1-x/2$:
+
+$$
+\Delta t_0\approx(1.60\times10^4\,\mathrm{s})(1-0.50\times10^{-12})
+=1.60\times10^4\,\mathrm{s}-8.0\times10^{-9}\,\mathrm{s}.
+$$
+
+**Resultado y control.** En este modelo ideal, el reloj del avión acumula unos $8\,\mathrm{ns}$ menos que los relojes terrestres. La diferencia relativa es aproximadamente $5\times10^{-13}$; por eso, con las cifras significativas de los datos ambos tiempos se redondean a $1.60\times10^4\,\mathrm{s}$. La expansión muestra el efecto que una calculadora común puede ocultar al redondear directamente la raíz.
+
 ## Fuentes cotejadas
 
 - [Capítulo de relatividad](zotero://select/library/items/YB8669CS), PDF pp. 7–9, 12–15 y 17–19.
+- [Problemas de relatividad aplicada](zotero://select/library/items/N655C6SK), PDF pp. 9–12: dilatación temporal en un avión y en muones para los complementarios C6–C7.
 - [Problemas de relatividad aplicada](zotero://select/library/items/N655C6SK), PDF pp. 13–24: intervalos propios, contracción, pista espacial y energía de electrones para los complementarios C1–C5.
 - [Problemas de relatividad aplicada](zotero://select/library/items/N655C6SK), PDF p. 25: velocidades $0.400c$ y $0.700c$ y tiempo de alcance.
 - [Modelo PDF 2025, escaneado](zotero://select/library/items/6GRRT3TK), p. 2: suma relativista seguida del tiempo de alcance; página revisada como imagen.

@@ -6,7 +6,7 @@ Vault de estudio para preparar el segundo parcial de Física Aplicada. El materi
 
 1. Abre esta carpeta como vault en Obsidian.
 2. Empieza por [Inicio.md](Inicio.md).
-3. Sigue el [Plan de 3 días](Plan%20de%203%20d%C3%ADas.md).
+3. Sigue el [Plan de 7 días](Plan%20de%207%20d%C3%ADas.md).
 4. En cada tema, estudia teoría, practica sin abrir las pistas y consulta las resoluciones después.
 
 ## Estructura

@@ -22,6 +22,8 @@ $$
 - $\gamma$ no tiene unidades, y debe ser mayor o igual que 1.
 - Si se da $v=0.60c$, usa directamente $\beta=0.60$.
 
+Para $\beta\ll1$, la aproximación binomial da $\gamma\approx1+\beta^2/2$. En una dilatación temporal, esto implica $\Delta t_0=\Delta t/\gamma\approx\Delta t(1-\beta^2/2)$. La corrección es de segundo orden en la rapidez; puede ser minúscula aunque el modelo relativista sea el correcto.
+
 ## 2. Dilatación temporal
 
 Para **los mismos dos eventos**, si ocurren en el mismo punto en un marco:
@@ -66,6 +68,9 @@ $$
 - $L$: longitud medida en un marco donde el objeto se mueve.
 - En cada marco, registra las posiciones de los extremos **simultáneamente en ese mismo marco**.
 - La contracción solo afecta la dimensión paralela a la velocidad relativa.
+
+> [!note] De dónde sale la contracción
+> Sea $S'$ el marco donde la nave está en reposo y $S$ el marco terrestre, desde el cual se mueve en $+x$. La transformación de Lorentz para dos registros de los extremos es $\Delta x'=\gamma(\Delta x-v\Delta t)$. La Tierra mide ambos extremos simultáneamente, así que $\Delta t=0$; por tanto, $\Delta x'=\gamma\Delta x$. Aunque esos registros no sean simultáneos en $S'$, las coordenadas de los extremos permanecen fijas allí y su diferencia sigue siendo $L_0$. Como $\Delta x=L$, resulta $L_0=\gamma L$ y, despejando, $L=L_0/\gamma$. La simultaneidad terrestre es el paso que convierte la transformación espacio-temporal en una longitud medida. El desarrollo conceptual está en [[Teoría/02 - Conceptos de relatividad especial#De la simultaneidad a la contracción de longitud]].
 
 Control: $L\leq L_0$. Si el problema da una dimensión transversal, no apliques esta ecuación a ella.
 

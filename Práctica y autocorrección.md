@@ -11,7 +11,7 @@ Consulta el [[Plan de auditoría de ejercicios]] para conocer el criterio de pri
 ## Antes de practicar
 
 - Lee [[Ejercicios/00 - Método y registro]] para usar la plantilla y registrar errores.
-- Se conserva la numeración global de ejercicios para que coincida con [[Plan de 3 días]].
+- Se conserva la numeración global de ejercicios para que coincida con [[Plan de 7 días]].
 
 ## Ejercicios por tema
 
@@ -22,7 +22,7 @@ Consulta el [[Plan de auditoría de ejercicios]] para conocer el criterio de pri
 
 ## Simulacro mixto
 
-Haz la prueba de 90 minutos del tercer día sin apuntes y registra los errores por tipo.
+Haz la prueba de 90 minutos del día 7 sin apuntes y registra los errores por tipo.
 
 - Enunciados: [[Ejercicios/05 - Simulacro mixto]]
 - Corrección explicada: [[Resoluciones/05 - Simulacro mixto]]

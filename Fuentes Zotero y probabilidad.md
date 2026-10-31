@@ -58,11 +58,15 @@ Esta frecuencia sirve para repartir el tiempo, no para predecir con certeza el p
 - [Problemas de ondas electromagnéticas](zotero://select/library/items/T92A4S8A) y [presentación EM](zotero://select/library/items/FQBGWVB4).
 - [Práctica de sonido](zotero://select/library/items/ZFCVVKE5) y [presentación de ondas y sonido](zotero://select/library/items/WFMW87CP).
 
-Los ejercicios marcados **M** se distribuyen en [[Ejercicios/01 - Gravitación y órbitas]], [[Ejercicios/02 - Relatividad especial]], [[Ejercicios/03 - Ondas y acústica]] y [[Ejercicios/04 - Ondas electromagnéticas]]; siguen formatos vistos en los modelos. Los marcados **R** son variantes de entrenamiento preparadas para comprobar transferencia; no son transcripciones de esos materiales.
+Los ejercicios marcados **M** se distribuyen en [[Ejercicios/01 - Gravitación y órbitas]], [[Ejercicios/02 - Relatividad especial]], [[Ejercicios/03 - Ondas y acústica]] y [[Ejercicios/04 - Ondas electromagnéticas]]; siguen formatos vistos en los modelos. Los **R** son variantes para practicar transferencia y los **C** agregan tipos del TP ausentes de los modelos.
 
 En gravitación, los complementarios **C1–C8** de [[Ejercicios/01 - Gravitación y órbitas]] se redactaron a partir de los tipos del TP 5 que no estaban representados en la práctica. La correspondencia ejercicio por ejercicio y su prioridad están en [[Plan de auditoría de ejercicios]].
 
-En relatividad, los complementarios **C1–C4** de [[Ejercicios/02 - Relatividad especial]] cubren variantes del TP de 2024 que amplían la identificación de intervalos propios y la medición de longitudes. **C5** agrega la energía relativista de electrones como ampliación de baja prioridad, porque ese tipo no aparece en los modelos revisados.
+En relatividad, los complementarios **C1–C4** y **C6** de [[Ejercicios/02 - Relatividad especial]] cubren variantes del TP de 2024 que amplían la identificación de intervalos propios, la medición de longitudes y la aplicación de dilatación temporal a muones. **C5** agrega energía relativista de electrones y **C7** un vuelo a velocidad cotidiana; ambos quedan como ampliaciones de baja prioridad porque no aparecen en los modelos revisados.
+
+En ondas y acústica, los complementarios **C20–C27** de [[Ejercicios/03 - Ondas y acústica]] cubren los temas del TP ausentes de los modelos: rapidez en distintos medios, igual intensidad con distinta frecuencia, oído, potencia y propagación, interferencia, reflexión y aplicaciones Doppler de fuente móvil y eco. R15 cubre intensidad a partir de presión (TP 6); C23 practica pasar de decibeles a intensidad (TP 9).
+
+En ondas electromagnéticas, el único tipo presente en los modelos revisados es la construcción de los campos de una onda plana en el vacío (ejercicio 20). Los complementarios **C22–C28** de [[Ejercicios/04 - Ondas electromagnéticas]] cubren las familias del TP que no aparecen en esos modelos: propagación en dieléctrico y ferrita, energía y flujo de un pulso, intensidad y amplitudes a distancia, presión de radiación, flujo de una onda estacionaria y modos en una cavidad. Se excluyen los problemas 9–11 del TP porque son de óptica geométrica, fuera del alcance confirmado.
 
 ## Gravitación: fuentes consultadas para el módulo
 
@@ -88,7 +92,9 @@ Las referencias de páginas distinguen la página del PDF adjunto de la numeraci
 | El mismo capítulo, PDF pp. 12–15 | Longitud propia, medición paralela al movimiento y contracción | Diagrama de simultaneidad, fórmulas y ejercicio 11 |
 | El mismo capítulo, PDF pp. 17–19 | Transformaciones de Lorentz y de velocidades; convenciones de signo | Fórmula de suma relativista y ejercicios 12–13 |
 | [Problemas de relatividad aplicada 2024](zotero://select/library/items/N655C6SK), PDF p. 8 | Identificación del tiempo propio y rapidez de la nave desde la razón de intervalos | Criterio para reconocer tiempo propio y despejar $v/c$; practica ambos pasos en 8–10 |
-| El mismo archivo, PDF pp. 9–15 | Dilatación en el avión y muones; tiempos de Magda y Sergio para los mismos dos sucesos | Ejercicios 8–9 cubren la dilatación; C1 compara los dos marcos para el mismo par de eventos |
+| El mismo archivo, PDF pp. 9–10, problema 1 | Tiempo de vuelo medido en Tierra y en el avión; rapidez cotidiana | C7 estima la corrección diminuta con $\sqrt{1-x}\approx1-x/2$; ampliación no presente en modelos |
+| El mismo archivo, PDF pp. 11–12, problema 2 | Vida media propia de un muón y vida media medida desde la Tierra | C6 aplica dilatación a una partícula y estima su distancia recorrida |
+| El mismo archivo, PDF pp. 13–15, problema 3 | Tiempos de Magda y Sergio para los mismos dos sucesos | C1 compara los dos marcos e identifica el tiempo propio |
 | El mismo archivo, PDF pp. 17–21 | Longitud de nave, separación de observadores, despeje inverso de rapidez y pista espacial | Ejercicio 11 y complementarios C2–C4 |
 | El mismo archivo, PDF pp. 22–24 | Energía en reposo y rapidez de electrones acelerados | Complementario C5, ampliación de baja prioridad |
 | El mismo archivo, PDF p. 25 | Nave a $0.400c$, proyectil a $0.700c$ y tiempo de alcance | Enunciado y procedimiento del ejercicio 12 |
@@ -96,7 +102,7 @@ Las referencias de páginas distinguen la página del PDF adjunto de la numeraci
 | [Modelo DOCX 2025](zotero://select/library/items/DHM5X7QD) | Contracción de longitud a $0.87c$ y dilatación temporal a $0.6c$ | Tipos de ejercicio 8 y 11 |
 | [Modelo manuscrito 2024](zotero://select/library/items/HQ9E54FP) y [resolución guardada](zotero://select/library/items/UHEXA2AW) | Rapidez que produce una diferencia temporal del 1 % | Enunciado y contraste del ejercicio 10 |
 
-La ruta prioritaria se concentra en dilatación temporal, contracción y suma relativista, presentes en los modelos revisados. La energía relativista aparece en el TP, pero no en esos modelos; por eso se incorporó como ampliación opcional C5. No se incluyen dinámica relativista general ni relatividad general. Los ejercicios **R** son variantes de transferencia; los **M** conservan la familia de planteos de examen, no una transcripción literal.
+La ruta prioritaria se concentra en dilatación temporal, contracción y suma relativista, presentes en los modelos revisados. El TP agrega aplicaciones de la dilatación a muones y vuelos a rapidez cotidiana; se practican en C6 y C7, sin aumentar la prioridad de examen. La energía relativista aparece en el TP, pero no en los modelos; por eso C5 es una ampliación opcional. No se incluyen dinámica relativista general ni relatividad general. Los ejercicios **R** son variantes de transferencia; los **M** conservan la familia de planteos de examen, no una transcripción literal.
 
 ## Dato acústico del modelo 2023 verificado visualmente
 
@@ -111,14 +117,16 @@ El escaneo original se abrió desde Zotero y el dato impreso se lee como $2.0\ti
 | La misma presentación, PDF p. 15 | Intensidad como transporte de energía por superficie | Significado físico de intensidad |
 | La misma presentación, PDF pp. 16–17 | Definición logarítmica del nivel sonoro y referencia $I_0$ | Fórmulas y resolución de los ejercicios 15–16 |
 | La misma presentación, PDF pp. 18–22 | Efecto Doppler, variables y ejemplos | Convención de signos y separación de movimiento de fuente/observador |
-| [Práctica de sonido 2021](zotero://select/library/items/ZFCVVKE5), ejercicios 1–2 | Presión máxima y desplazamiento; transmisión al fluido | Relación $\Delta p_{\max}=Bks_{\max}$ |
-| La misma práctica, ejercicios 3–10 | Rapidez, intensidad, potencia, nivel y cambio con distancia | Contexto extendido y ejercicios de transferencia |
-| La misma práctica, ejercicios 13–17 | Longitud de onda de fuente móvil, observador móvil, ambos movimientos y eco | Convención Doppler y práctica complementaria |
+| [Práctica de sonido 2021](zotero://select/library/items/ZFCVVKE5), ejercicios 1–2 | Presión y desplazamiento; transmisión desde tímpano a fluido | Ejercicio 14 para el formato del parcial; complementario C22 |
+| La misma práctica, ejercicios 3–5 | Rapidez en agua, varilla y aire; longitud de onda y rango audible | Complementario C20 |
+| La misma práctica, ejercicios 6–10 | Intensidad, igual intensidad a distintas frecuencias, potencia y decibeles con distancia | R15, C21 y C23 |
+| La misma práctica, ejercicios 11–12 | Reflexión en pared rígida e interferencia de dos altavoces coherentes | Complementarios C24–C25; figuras recortadas para [[Teoría/03 - Conceptos de ondas y acústica]] |
+| La misma práctica, ejercicios 13–17 | Longitud de onda delante/detrás de fuente móvil, Doppler combinado y eco | Complementarios C26–C27; los casos de una sola velocidad también se practican en 17–18 |
 | [Modelo 2023](zotero://select/library/items/YIXUYDMC), pregunta 2 | Intensidad por máquina y nivel con una o dos máquinas | Ejercicio 16; exponente $10^7$ confirmado visualmente en la imagen de Zotero |
 | [Modelo 2024](zotero://select/library/items/HQ9E54FP), pregunta 3 | Sirena de $500\,\mathrm{Hz}$; fuente acercándose a $50\,\mathrm{m/s}$ y observador alejándose a $30\,\mathrm{m/s}$ | Ejercicios 17–18; ambos datos cotejados visualmente |
 | [Modelo 2025 en DOCX](zotero://select/library/items/DHM5X7QD), pregunta 1 | Desplazamiento del aire desde amplitud de presión, frecuencia, rapidez y módulo volumétrico | Ejercicio 14 |
 
-Las páginas son las del PDF en Zotero. Los modelos 2023 y 2024 son imágenes y se revisaron visualmente; el texto de ejercicios de sonido de 2021 se obtuvo desde el adjunto indexado. Los ejercicios M mantienen las familias y los datos relevantes de los modelos; los R son variantes didácticas.
+Las páginas son las del PDF en Zotero. Los modelos 2023 y 2024 son imágenes y se revisaron visualmente; el texto de ejercicios de sonido de 2021 se obtuvo desde el adjunto indexado. Los ejercicios M mantienen familias de los modelos; R son variantes didácticas; C se redactaron a partir de problemas del TP que no estaban representados en los modelos.
 
 ## Ondas electromagnéticas: fuentes consultadas para el módulo
 
@@ -126,6 +134,12 @@ Las páginas son las del PDF en Zotero. Los modelos 2023 y 2024 son imágenes y 
 |---|---|---|
 | [Presentación de Ondas Electromagnéticas](zotero://select/library/items/FQBGWVB4), PDF pp. 2–5 | Los campos variables se inducen mutuamente; la onda se propaga en el vacío sin medio; Maxwell describe esa interacción | [[Teoría/04 - Conceptos de ondas electromagnéticas]]: contexto físico y alcance del modelo |
 | [Material de problemas de ondas electromagnéticas](zotero://select/library/items/T92A4S8A), PDF p. 2, problema 1 | Láser en el vacío, propagación en $-x$, $\lambda=10.6\,\mathrm{\mu m}$ y campo eléctrico paralelo a $z$ con amplitud $1.53\,\mathrm{MV/m}$ | Ejercicio 21: cálculo de $f$, $B_{max}$, $k$, $\omega$ y ecuaciones vectoriales |
+| El mismo material, PDF pp. 3–4, problemas 2–3 | Luz en diamante y radio en ferrita; cambio de rapidez y longitud de onda a frecuencia constante | Complementarios C22–C23: usar $v=c/\sqrt{KK_m}$ y $\lambda=v/f$ |
+| El mismo material, PDF pp. 4–5, problema 4 | Pulso plano en el vacío; campo magnético, densidad de energía y vector de Poynting | Complementario C24: distinguir valor instantáneo de promedio sinusoidal |
+| El mismo material, PDF pp. 5–7, problema 5 | Potencia media de antena sobre hemisferio; intensidad y amplitudes de los campos a 100 km | Complementario C25: $A=2\pi r^2$ y relación entre intensidad y amplitudes |
+| El mismo material, PDF p. 7, problema 6 | Potencia absorbida y presión de radiación en paneles solares | Complementario C26: $p_{rad}=I/c$ para absorción perpendicular |
+| El mismo material, PDF p. 8, problema 7 | Superposición de ondas contrapropagantes y promedio temporal del flujo | Complementario C27: flujo neto medio nulo en una onda estacionaria ideal |
+| El mismo material, PDF pp. 8–9, problema 8 | Modos estacionarios entre paredes conductoras, frecuencia mínima y nodos/antinodos | Complementario C28: modo fundamental de una cavidad |
 | [Modelo manuscrito 2024](zotero://select/library/items/HQ9E54FP), pregunta 1 | Amplitud $B_{max}=2.15\,\mathrm{mT}$, longitud de onda $350\,\mathrm{nm}$, frecuencia, amplitud eléctrica y ecuaciones | Ejercicio 20, con convenciones de ejes explícitas para practicar la forma vectorial |
 | [Resolución guardada del modelo 2024](zotero://select/library/items/UHEXA2AW), problema 1 | Cálculo de $f$, $E_{max}$, $k$ y $\omega$ | Contraste numérico del ejercicio 20 |
 

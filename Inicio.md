@@ -56,7 +56,7 @@ Incluye frecuencia, longitud de onda, amplitud de campos y dirección de propaga
 
 ## Herramientas de estudio
 
-- [[Plan de 3 días]] organiza las sesiones y el simulacro.
+- [[Plan de 7 días]] organiza las sesiones, los repasos y el simulacro antes del parcial.
 - [[Plan de pulido teórico y resoluciones]] define las mejoras por módulo y su estado.
 - [[Teoría/00 - Mapa y formulario general]] sirve para repasar fórmulas y elegir un modelo.
 - [[Ejercicios/00 - Método y registro]] incluye una plantilla de planteo y el registro de errores.

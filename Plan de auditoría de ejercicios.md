@@ -52,8 +52,8 @@ La numeración del documento fuente salta del ejercicio 11 al 13; no se observa 
 | Fuente en el TP | Cobertura en el vault | Prioridad |
 |---|---|---|
 | Ejemplo del reflector, p. 8: identificar tiempo propio y hallar $v$ | Ejercicio 10 aborda el despeje de $v/c$; ejercicios 8–9 practican dilatación | Alta, habilidad cubierta |
-| Problema 1, pp. 9–10: tiempo de vuelo medido en Tierra y avión | Ejercicios 8–9 practican los dos marcos y cuál intervalo es propio | Alta, cubierto con variante |
-| Problema 2, pp. 11–12: vida media de muones | Ejercicios 8–9 practican la misma relación de dilatación | Alta, cubierto con variante |
+| Problema 1, pp. 9–10: tiempo de vuelo medido en Tierra y avión | Complementario C7: límite de baja rapidez y estimación de una diferencia de unos nanosegundos | Ampliación: efecto demasiado pequeño para los modelos |
+| Problema 2, pp. 11–12: vida media de muones | Complementario C6: dilatación de la vida media y distancia media recorrida | Media: aplicación física de la relación ya presente en los modelos |
 | Problema 3, pp. 13–15: Magda y Sergio; identificar intervalos propios en dos incisos | Complementario C1: pares de eventos, distancia terrestre y tiempos de ambos relojes | Alta |
 | Problema 4, p. 17: longitud de una nave a $0.990c$ | Ejercicio 11: contracción desde la longitud propia | Alta, cubierto directamente |
 | Problema 5, pp. 18–19: separación de observadores terrestres vista desde la nave | Complementario C2: longitud propia del par y separación contraída | Media |
@@ -62,13 +62,40 @@ La numeración del documento fuente salta del ejercicio 11 al 13; no se observa 
 | Problema 6, pp. 22–24: energía y rapidez final de electrones | Complementario C5, con relaciones de energía relativista | Ampliación: aparece en el TP, no en los modelos |
 | Problema de nave y proyectil, p. 25 | Ejercicio 12: suma de velocidades y tiempo de llegada | Alta, cubierto directamente |
 
-Los formatos de relatividad presentes en los modelos ya tienen ejercicios principales. C1–C4 agregan planteos del TP que profundizan la interpretación de intervalos y longitudes; C5 queda al final por su menor probabilidad según los modelos.
+Los formatos de relatividad presentes en los modelos ya tienen ejercicios principales. C1–C4 amplían la interpretación de intervalos y longitudes; C6 aplica la dilatación a muones y su alcance. C5 (energía de electrones) y C7 (vuelo cotidiano) son ampliaciones opcionales: aparecen en el TP, pero no en los modelos revisados.
 
-## Unidades pendientes
+## Unidad 3 — Ondas y acústica
 
-| Unidad | Trabajo pendiente |
-|---|---|
-| 3. Ondas y acústica | Cotejar presión/desplazamiento, intensidad y nivel sonoro, y Doppler. |
-| 4. Ondas electromagnéticas | Cotejar frecuencia, amplitudes, dirección de propagación y ecuaciones vectoriales; mantener óptica excluida. |
+**Estado: auditada y ampliada.** Se cotejaron los 17 ejercicios del TP de sonido con los modelos 2023, 2024 y 2025. Los ejercicios M conservan los formatos de parcial; R15 practica intensidad desde presión (TP 6) y C23 invierte el nivel sonoro a intensidad (TP 9). Se agregaron C20–C27 para cubrir las aplicaciones del TP ausentes de los modelos.
 
-**Índice de práctica:** [[Práctica y autocorrección]] · **Práctica unidad 1:** [[Ejercicios/01 - Gravitación y órbitas]] · **Práctica unidad 2:** [[Ejercicios/02 - Relatividad especial]]
+| Fuente en el TP | Cobertura en el vault | Prioridad |
+|---|---|---|
+| Ejercicio 1: presión acústica y desplazamiento | Ejercicio 14; formato presente también en el modelo 2025 | Alta, cubierto directamente |
+| Ejercicio 2: transmisión al fluido del oído | Complementario C22 | Baja: aplicación de presión y desplazamiento |
+| Ejercicios 3–5: sonar, rapidez en agua/varilla/aire y longitud de onda | Complementario C20 | Media: escoger y usar el modelo del medio |
+| Ejercicio 6: intensidad desde presión | Ejercicio 15 | Media, cubierto |
+| Ejercicio 7: igual intensidad y frecuencias distintas | Complementario C21 | Media: relaciona presión, frecuencia y desplazamiento |
+| Ejercicios 8 y 10: potencia de fuente y nivel al duplicar distancia | Complementario C23 | Media: propagación esférica e inverso del cuadrado |
+| Ejercicio 9: convertir niveles a intensidades | Complementario C23 | Media: inversión del logaritmo |
+| Ejercicio 11: cancelación por reflexión en una pared | Complementario C25 | Baja: superposición y nodos |
+| Ejercicio 12: interferencia de dos altavoces coherentes | Complementario C24 | Baja: diferencia de caminos |
+| Ejercicios 13 y 17: fuente móvil y eco en una pared | Complementario C26 | Media: Doppler en la ida y la vuelta |
+| Ejercicios 14–15: fuente u observador móvil por separado | Ejercicios 17–18, basados en los casos del modelo 2024 | Alta, formato presente en modelos |
+| Ejercicio 16: fuente y observador móviles a la vez | Complementario C27 | Media: asignación de signos en ambos términos |
+
+## Unidad 4 — Ondas electromagnéticas
+
+En los modelos revisados, el tipo de ejercicio electromagnético es una onda plana en el vacío: calcular frecuencia y amplitudes, orientar los campos y escribir sus ecuaciones. La práctica de esa familia ya está en los ejercicios 20–21. La revisión del TP identificó siete familias adicionales; no aparecen en esos modelos y se añadieron como complementarios, sin tratarlos como predicciones de examen.
+
+| Fuente del TP | Habilidad no cubierta por los modelos | Cobertura en la guía | Prioridad de estudio |
+|---|---|---|---|
+| Problemas 2–3, PDF pp. 3–4 | Rapidez y longitud de onda en dieléctrico y ferrita, conservando la frecuencia | C22–C23 | Media: aplicar propiedades del material y distinguir $c$ de $v$ |
+| Problema 4, PDF pp. 4–5 | Densidad de energía y flujo de un pulso electromagnético | C24 | Media: distinguir flujo instantáneo de promedio sinusoidal |
+| Problema 5, PDF pp. 5–7 | Potencia irradiada en un hemisferio; intensidad y amplitudes a distancia | C25 | Media: geometría del área y relación con los campos |
+| Problema 6, PDF p. 7 | Potencia absorbida, presión y fuerza de radiación | C26 | Ampliación: aplicación del momento de la radiación |
+| Problema 7, PDF p. 8 | Superposición contrapropagante y flujo medio en onda estacionaria | C27 | Ampliación: interpretación del transporte neto |
+| Problema 8, PDF pp. 8–9 | Modos de cavidad, frecuencia mínima y ubicación de nodos/antinodos | C28 | Media: condición de frontera y modo fundamental |
+
+Los problemas 9–11 de ese material son de óptica geométrica y se mantienen excluidos según el alcance confirmado. La sección, pistas y respuestas breves están en [[Ejercicios/04 - Ondas electromagnéticas]]; los desarrollos están en [[Resoluciones/04 - Ondas electromagnéticas]].
+
+**Índice de práctica:** [[Práctica y autocorrección]] · **Práctica unidad 1:** [[Ejercicios/01 - Gravitación y órbitas]] · **Práctica unidad 2:** [[Ejercicios/02 - Relatividad especial]] · **Práctica unidad 3:** [[Ejercicios/03 - Ondas y acústica]] · **Práctica unidad 4:** [[Ejercicios/04 - Ondas electromagnéticas]]
