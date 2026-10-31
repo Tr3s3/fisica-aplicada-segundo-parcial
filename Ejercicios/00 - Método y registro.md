@@ -45,5 +45,5 @@ Plantilla para copiar en tu hoja:
 Anota el primer paso donde te desviaste y vuelve a resolver el problema sin mirar la pista. Repite los ejercicios fallados al cerrar el día y al día siguiente.
 
 | Problema | Paso donde me trabé | Error o supuesto incorrecto | Qué revisaré | ¿Lo rehice sin ayuda? |
-|---|---|---|---|---|
-| | | | | |
+| -------- | ------------------- | --------------------------- | ------------ | --------------------- |
+|          |                     |                             |              |                       |
