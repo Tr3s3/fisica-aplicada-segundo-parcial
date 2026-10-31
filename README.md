@@ -17,8 +17,6 @@ Vault de estudio para preparar el segundo parcial de Física Aplicada. El materi
 - imagenes/: diagramas SVG usados en las notas.
 - Fuentes Zotero y probabilidad.md: modelos y materiales de referencia.
 
-Óptica está excluida del temario indicado para este parcial. La auditoría de Zotero la menciona únicamente para documentar el modelo original.
-
 ## Formato
 
 El vault usa Markdown, fórmulas LaTeX/MathJax, enlaces internos de Obsidian, callouts plegables y diagramas SVG. No requiere plugins comunitarios. La carpeta .obsidian/, que contiene preferencias locales, el estado de ventanas y la lista de plugins instalados, no se incluye en el repositorio.
